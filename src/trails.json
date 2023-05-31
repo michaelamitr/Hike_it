@@ -1,0 +1,24 @@
+[
+  {
+    "general": {
+      "name": "Rybářská Stezka",
+      "location": "Portugalsko",
+      "length": 230,
+      "stagesNumber": 13,
+      "type": "pobřežní",
+      "difficulty": 2,
+      "monthsToGo": [1, 2, 3, 4, 5, 9, 10, 11, 12]
+    },
+    "info": "",
+    "stages": {
+      "1": {
+        "property1": "Value 1",
+        "property2": "Value 2"
+      },
+      "2": {
+        "property1": "Value 1",
+        "property2": "Value 2"
+      }
+    }
+  }
+]
