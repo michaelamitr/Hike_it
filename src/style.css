@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Italiana&family=Poiret+One&display=swap');
 
+:root {
+  --backgroung-light-blue: #002932;
+  /*--background-secondary: #cdddda;*/
+  --text-light: #fff4dd;
+  --text: black;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

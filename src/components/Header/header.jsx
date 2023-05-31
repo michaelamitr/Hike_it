@@ -9,6 +9,22 @@ export const Header = () => {
     <header>
       <img src={darkModeIcon} className="darkmode"></img>
       <img className="burgermenu" src={burgerIcon}></img>
+      <div className="navmob">
+        <ul>
+          <li>
+            <NavLink to="/">Domů</NavLink>
+          </li>
+          <li>
+            <NavLink to="/all-trails">Všechny trasy</NavLink>
+          </li>
+          <li>
+            <NavLink to="/humans-and-nature">Lidé & příroda</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contacts">Kontakty</NavLink>
+          </li>
+        </ul>
+      </div>
       <div className="nav">
         <ul>
           <li>

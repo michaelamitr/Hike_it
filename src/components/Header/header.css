@@ -5,7 +5,7 @@ header {
   display: flex;
   height: 4rem;
   align-items: center;
-  background-color: #002932;
+  background-color: var(--backgroung-light-blue);
   font-family: 'Poiret One', sans-serif;
   font-weight: bold;
   justify-content: space-between;
@@ -16,14 +16,35 @@ header {
   display: none;
 }
 
-ul {
-  display: flex;
-  gap: 2rem;
+.navmob {
+  position: absolute;
+  top: 4rem;
+  width: 100%;
+  height: calc(100vh - 4rem);
+  text-align: center;
+  background-color: var(--backgroung-light-blue);
 }
 
-.nav a {
-  color: #002932;
-  background-color: #fff4dd;
+.navmob ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin: 3rem;
+}
+
+.navmob ul::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: calc(100vh - 4rem);
+  background: rgb(92, 51, 5);
+}
+
+.navmob a {
+  color: var(--backgroung-light-blue);
+  background-color: var(--text-light);
   font-size: 1.5rem;
   position: relative;
   z-index: 1;
@@ -35,23 +56,26 @@ ul {
   align-items: center;
 }
 
-.nav a:hover {
+.navmob a:hover {
   scale: 1.05;
 }
 
-.nav a::after {
+.navmob a::after {
   content: "";
   position: absolute;
   border-top: 1.3rem solid transparent;
   border-bottom: 1.3rem solid transparent;
-  border-left: 1rem solid #fff4dd;
+  border-left: 1rem solid var(--text-light);
   left: 10rem;
 }
 
 
+
+
+
 .darkmode {
   display: block;
-  background-color: #fff4dd;
+  background-color: var(--text-light);
   height: 2.55rem;
   width: 2.55rem;
   padding: 4px;
@@ -60,7 +84,7 @@ ul {
 
 .burgermenu {
   display: block;
-  background-color: #fff4dd;
+  background-color: var(--text-light);
   height: 2.55rem;
   width: 2.55rem;
   margin-right: 1rem;
@@ -69,6 +93,10 @@ ul {
 
 
 @media (min-width: 850px) {
+
+  .navmob {
+    display: none;
+  }
 
   header {
     padding-right: 2rem;
@@ -84,8 +112,8 @@ ul {
   }
 
   .nav a {
-    color: #002932;
-    background-color: #fff4dd;
+    color: var(--backgroung-light-blue);
+    background-color: var(--text-light);
     font-size: 1.5rem;
     position: relative;
     z-index: 1;
@@ -106,7 +134,7 @@ ul {
     position: absolute;
     border-top: 1.3rem solid transparent;
     border-bottom: 1.3rem solid transparent;
-    border-left: 1rem solid #fff4dd;
+    border-left: 1rem solid var(--text-light);
     left: 10rem;
   }
 
