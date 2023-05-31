@@ -1,15 +1,21 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
 import './header.css';
 import burgerIcon from './icons/burgermenu-blue.svg';
 import darkModeIcon from './icons/moon-icon-blue.svg';
 
 export const Header = () => {
+  const [open, setOpen] = useState(false);
+  const toggleMenu = () => {
+    setOpen(!open);
+  };
+
   return (
     <header>
       <img src={darkModeIcon} className="darkmode"></img>
-      <img className="burgermenu" src={burgerIcon}></img>
-      <div className="navmob">
+      <img className="burgermenu" src={burgerIcon} onClick={toggleMenu}></img>
+      <div className={open ? 'navmob' : 'navmob closenavmob'}>
         <ul>
           <li>
             <NavLink to="/">Domů</NavLink>

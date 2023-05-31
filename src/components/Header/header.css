@@ -69,6 +69,9 @@ header {
   left: 10rem;
 }
 
+.closenavmob {
+  display: none;
+}
 
 
 
