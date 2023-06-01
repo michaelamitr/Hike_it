@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 import './header.css';
 import burgerIcon from './icons/burgermenu-blue.svg';
+import closeIcon from './icons/menu-close-blue.svg';
 import darkModeIcon from './icons/moon-icon-blue.svg';
 
 export const Header = () => {
@@ -14,7 +15,11 @@ export const Header = () => {
   return (
     <header>
       <img src={darkModeIcon} className="darkmode"></img>
-      <img className="burgermenu" src={burgerIcon} onClick={toggleMenu}></img>
+      <img
+        className="burgermenu"
+        src={open ? closeIcon : burgerIcon}
+        onClick={toggleMenu}
+      ></img>
       <div className={open ? 'navmob' : 'navmob closenavmob'}>
         <ul>
           <li>
