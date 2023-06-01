@@ -23,16 +23,24 @@ export const Header = () => {
       <div className={open ? 'navmob' : 'navmob closenavmob'}>
         <ul>
           <li>
-            <NavLink to="/">Domů</NavLink>
+            <NavLink to="/" onClick={toggleMenu}>
+              Domů
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/all-trails">Všechny trasy</NavLink>
+            <NavLink to="/all-trails" onClick={toggleMenu}>
+              Všechny trasy
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/humans-and-nature">Lidé & příroda</NavLink>
+            <NavLink to="/humans-and-nature" onClick={toggleMenu}>
+              Lidé & příroda
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/contacts">Kontakty</NavLink>
+            <NavLink to="/contacts" onClick={toggleMenu}>
+              Kontakty
+            </NavLink>
           </li>
         </ul>
       </div>
