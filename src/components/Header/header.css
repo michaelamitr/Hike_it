@@ -6,11 +6,11 @@ header {
   height: 4rem;
   align-items: center;
   background-color: var(--backgroung-light-blue);
-  font-family: 'Poiret One', sans-serif;
-  font-weight: bold;
+  font-family: 'Caveat', sans-serif;
+  font-weight: 500;
   justify-content: space-between;
+  font-size: 1.6rem;
 }
-
 
 .nav {
   display: none;
@@ -45,7 +45,6 @@ header {
 .navmob a {
   color: var(--backgroung-light-blue);
   background-color: var(--text-light);
-  font-size: 1.5rem;
   position: relative;
   z-index: 1;
   display: flex;
@@ -58,6 +57,7 @@ header {
 
 .navmob a:hover {
   scale: 1.05;
+  font-weight: 600;
 }
 
 .navmob a::after {
@@ -67,6 +67,16 @@ header {
   border-bottom: 1.3rem solid transparent;
   border-left: 1rem solid var(--text-light);
   left: 10rem;
+}
+
+.navmob a.active {
+  scale: 1.05;
+  font-weight: 600;
+  background-color: rgb(228, 175, 112);
+}
+
+.navmob a.active::after {
+  border-left: 1rem solid rgb(228, 175, 112);
 }
 
 .closenavmob {
@@ -117,7 +127,6 @@ header {
   .nav a {
     color: var(--backgroung-light-blue);
     background-color: var(--text-light);
-    font-size: 1.5rem;
     position: relative;
     z-index: 1;
     display: flex;
@@ -130,6 +139,7 @@ header {
 
   .nav a:hover {
     scale: 1.05;
+    font-weight: 600;
   }
 
   .nav a::after {
@@ -140,6 +150,17 @@ header {
     border-left: 1rem solid var(--text-light);
     left: 10rem;
   }
+
+  .nav a.active {
+    scale: 1.05;
+    font-weight: 600;
+    background-color: rgb(228, 175, 112);
+  }
+
+  .nav a.active::after {
+    border-left: 1rem solid rgb(228, 175, 112);
+  }
+
 
   .burgermenu {
     display: none;

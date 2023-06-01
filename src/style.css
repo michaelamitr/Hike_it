@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Italiana&family=Poiret+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Italiana&family=Poiret+One&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Istok+Web&family=Italiana&display=swap');
 
 :root {
   --backgroung-light-blue: #002932;
   /*--background-secondary: #cdddda;*/
-  --text-light: #fff4dd;
+  --text-light: #ffedc7;
   --text: black;
 }
 
