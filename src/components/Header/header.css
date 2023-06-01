@@ -10,6 +10,9 @@ header {
   font-weight: 500;
   justify-content: space-between;
   font-size: 1.6rem;
+  background-image: url('./wood.png');
+  background-size: 16rem;
+  background-repeat: repeat;
 }
 
 .nav {
@@ -22,7 +25,9 @@ header {
   width: 100%;
   height: calc(100vh - 4rem);
   text-align: center;
-  background-color: var(--backgroung-light-blue);
+  background-image: url('./IMG_8049.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .navmob ul {
@@ -39,7 +44,11 @@ header {
   position: absolute;
   width: 10px;
   height: calc(100vh - 4rem);
-  background: rgb(92, 51, 5);
+  background: rgb(111, 61, 4);
+  background-image: url('./wood.png');
+  background-size: 7rem;
+  background-position: center;
+  background-repeat: repeat;
 }
 
 .navmob a {
