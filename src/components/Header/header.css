@@ -79,7 +79,6 @@ header {
 }
 
 .navmob a.active {
-  scale: 1.05;
   font-weight: 600;
   background-color: rgb(228, 175, 112);
 }
@@ -161,7 +160,6 @@ header {
   }
 
   .nav a.active {
-    scale: 1.05;
     font-weight: 600;
     background-color: rgb(228, 175, 112);
   }
