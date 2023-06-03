@@ -17,9 +17,10 @@ import { Contacts } from './pages/Contact/contact';
 const App = () => {
   const location = useLocation();
   return (
-    <div>
+    <div className="page">
       <Header />
       {/* <main>{location.pathname === '/' ? <MainPage /> : <Outlet />}</main> */}
+      <MainPage />
       <Footer />
     </div>
   );
