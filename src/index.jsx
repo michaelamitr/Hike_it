@@ -19,8 +19,7 @@ const App = () => {
   return (
     <div className="page">
       <Header />
-      {/* <main>{location.pathname === '/' ? <MainPage /> : <Outlet />}</main> */}
-      <MainPage />
+      {location.pathname === '/' ? <MainPage /> : <Outlet />}
       <Footer />
     </div>
   );
