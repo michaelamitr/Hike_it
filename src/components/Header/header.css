@@ -1,7 +1,7 @@
 header {
   position: fixed;
+  z-index: 1;
   width: 100%;
-  top: 0px;
   display: flex;
   height: 4rem;
   align-items: center;
@@ -90,9 +90,6 @@ header {
   display: none;
 }
 
-
-
-
 .darkmode {
   display: block;
   background-color: var(--text-light);
@@ -109,8 +106,6 @@ header {
   width: 2.55rem;
   margin-right: 1rem;
 }
-
-
 
 @media (min-width: 850px) {
 
@@ -167,10 +162,7 @@ header {
     border-left: 1rem solid rgb(228, 175, 112);
   }
 
-
   .burgermenu {
     display: none;
   }
-
-
 }
