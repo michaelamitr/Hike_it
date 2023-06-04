@@ -5,9 +5,9 @@ export const Footer = () => {
   return (
     <footer>
       <p className="footer--text">
-        Projekt Hike it and like it - Digitální akademie - web 2023, Czechitas
+        Projekt Hike it and like it – Digitální akademie: Web 2023, Czechitas
       </p>
-      <p className="footer--text">Michaela trčková a Iva Havranová</p>
+      <p className="footer--text">Michaela Trčková & Iva Havranová</p>
     </footer>
   );
 };

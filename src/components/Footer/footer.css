@@ -16,6 +16,7 @@ footer {
   font-family: var(--font-text);
   font-size: 1rem;
   text-align: center;
+  font-family: 'Caveat', sans-serif;
 }
 
 @media (max-width: 650px) {

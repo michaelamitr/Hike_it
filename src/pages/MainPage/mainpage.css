@@ -12,15 +12,26 @@
 }
 
 .title {
-  width: 70vw;
+  max-width: 60vw;
   height: 180px;
   background-color: black;
-  opacity: 0.6;
-  color: white;
+  opacity: 0.8;
   position: relative;
-  left: 15%;
-  top: 370px;
-  font-family: 'Caveat', sans-serif;
+  left: 19%;
+  top: 30%;
+}
+
+div.title h1 {
+  font-family: 'Italiana', sans-serif;
+  font-weight: 400;
+  color: white;
+  opacity: 100%;
+}
+
+div.title h2 {
+  font-family: 'Italiana', sans-serif;
+  font-weight: 400;
+  color: white;
 }
 
 .hikeit {
@@ -38,8 +49,11 @@
 
 .main__section {
   width: 70vw;
-  margin: 45px auto;
+  margin: auto;
   padding: 45px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .main__text {
@@ -53,7 +67,6 @@
 
   .title {
     height: 120px;
-    top: 215px;
   }
 
   .hikeit {
