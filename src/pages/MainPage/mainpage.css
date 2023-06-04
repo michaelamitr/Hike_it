@@ -17,30 +17,19 @@
   background-color: black;
   opacity: 0.8;
   position: relative;
-  left: 19%;
+  left: 20%;
   top: 30%;
-}
-
-div.title h1 {
-  font-family: 'Italiana', sans-serif;
-  font-weight: 400;
-  color: white;
-  opacity: 100%;
-}
-
-div.title h2 {
   font-family: 'Italiana', sans-serif;
   font-weight: 400;
   color: white;
 }
 
-.hikeit {
+.title__hikeit {
   font-size: 7rem;
-  position: absolute;
-  left: calc(50% - 123.75px)
+  text-align: center;
 }
 
-.likeit {
+.title__likeit {
   font-size: 2rem;
   position: absolute;
   right: 1vw;
@@ -69,12 +58,12 @@ div.title h2 {
     height: 120px;
   }
 
-  .hikeit {
+  .title__hikeit {
     font-size: 4rem;
     left: calc(50% - 70.7px)
   }
 
-  .likeit {
+  .title__likeit {
     font-size: 1.5rem;
   }
 

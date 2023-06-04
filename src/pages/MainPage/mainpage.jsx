@@ -6,8 +6,8 @@ export const MainPage = () => {
     <section id="main">
       <div className="main__banner">
         <div className="title">
-          <h1 className="hikeit">Hike it</h1>
-          <h2 className="likeit">. . . and like it</h2>
+          <h1 className="title__hikeit">Hike it</h1>
+          <h2 className="title__likeit">. . . and like it</h2>
         </div>
       </div>
       <section className="main__section">
