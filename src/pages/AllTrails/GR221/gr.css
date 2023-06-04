@@ -1,0 +1,7 @@
+#gr__trail {
+  position: relative;
+  top: 4rem;
+  bottom: 0;
+  margin-bottom: 4rem;
+  background-color: var(--text-light);
+}
