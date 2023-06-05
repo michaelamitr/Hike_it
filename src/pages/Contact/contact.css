@@ -129,6 +129,9 @@
   max-height: 250px;
 }
 
+.iva {
+  flex-direction: row-reverse;
+}
 
 @media (min-width: 609px) {
 

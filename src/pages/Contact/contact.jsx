@@ -53,7 +53,7 @@ export const Contacts = () => {
           alt="Michaela Trčková"
         ></img>
       </div>
-      <div className="person-container">
+      <div className="person-container iva">
         <div className="person-text">
           <h2 className="person-name">Iva Havranová</h2>
           <p className="person-describtion">
