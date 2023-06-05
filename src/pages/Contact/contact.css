@@ -1,5 +1,101 @@
 #contacts {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
+  top: 4rem;
+  width: 100%;
+  align-items: center;
+  min-height: 700px;
+  font-family: 'Istok Web', sans-serif;
+  background-color: var(--text-light);
+  color: var(--backgroung-light-blue);
+}
+
+.person-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 90vw;
+  padding: 1.5rem;
+  max-width: 800px;
+}
+
+.person-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-between;
+  min-height: 250px;
+  text-align: center;
+}
+
+.person-name {
+  font-family: 'Caveat', sans-serif;
+}
+
+.person-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.email,
+.github {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.email-icon {
+  background-image: url('./img/email-closed.png');
+  background-color: var(--text-light);
+  background-size: cover;
+  display: block;
+  height: 30px;
+  width: 30px;
+  margin: 0;
+}
+
+.email-icon:hover {
+  background-image: url('./img/email-open.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.github-icon {
+  background-image: url('./img/github-light.png');
+  background-color: var(--text-light);
+  background-size: cover;
+  display: block;
+  height: 30px;
+  width: 30px;
+  margin: 0;
+}
+
+.github-icon:hover {
+  background-image: url('./img/github-dark.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.email-link,
+.github-link {
+  color: var(--backgroung-light-blue);
+}
+
+.email-link:hover,
+.github-link:hover {
+  font-weight: bold;
+}
+
+.person-image {
+  width: 200px;
+}
+
+@media (min-width: 620px) {
+  .person-text {
+    width: 50%;
+    text-align: left;
+  }
 }
