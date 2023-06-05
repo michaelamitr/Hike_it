@@ -57,9 +57,11 @@ export const Contacts = () => {
         <div className="person-text">
           <h2 className="person-name">Iva Havranová</h2>
           <p className="person-describtion">
-            Ahoj! Já jsem Míša. Miluju svobodu, dobrodružství a poznávání
-            nového. A oceán. Ráda cestuji, pohybuji se v přírodě, poznávám nové
-            kultury a pronikám hlouběji do světa IT. Život je jízda!
+            Ahoj, já jsem Iva a původně pocházím ze severních Čech. Na Praze
+            miluju ty možnosti, že se člověk může kdekoli naučit, co zrovna
+            chce. Třeba programovat v Czechitas. Ráda se ale vracím na sever do
+            přírody a klidu, miluju zvířata a ve volném čase sedím u šicího
+            stroje.
           </p>
           <div className="person-contact">
             <div className="email">

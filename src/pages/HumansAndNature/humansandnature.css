@@ -31,6 +31,7 @@
 .carousell__text {
   text-align: center;
   width: 75vw;
+  padding: 0 2rem;
 }
 
 .did-you-know {
