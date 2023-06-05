@@ -5,7 +5,7 @@
   top: 4rem;
   width: 100%;
   align-items: center;
-  min-height: 700px;
+  min-height: 1600px;
   font-family: 'Istok Web', sans-serif;
   background-color: var(--text-light);
   color: var(--backgroung-light-blue);
@@ -15,9 +15,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
   width: 90vw;
-  padding: 1.5rem;
+  padding: 3rem;
   max-width: 800px;
 }
 
@@ -26,8 +26,9 @@
   flex-direction: column;
   text-align: left;
   justify-content: space-between;
-  min-height: 250px;
+  min-height: 310px;
   text-align: center;
+  gap: 3rem;
 }
 
 .person-name {
@@ -125,11 +126,38 @@
 
 .person-image {
   width: 200px;
+  max-height: 250px;
 }
 
-@media (min-width: 620px) {
-  .person-text {
-    width: 50%;
-    text-align: left;
+
+@media (min-width: 609px) {
+
+  #contacts {
+    min-height: 1500px;
   }
+
+}
+
+@media (min-width: 676px) {
+
+  #contacts {
+    min-height: 1100px;
+  }
+
+  .person-text {
+    text-align: left;
+    width: 280px;
+  }
+}
+
+@media (min-width: 870px) {
+  .person-image {
+    width: 310px;
+    min-height: 385.5px;
+  }
+
+  #contacts {
+    min-height: 1100px;
+  }
+
 }
