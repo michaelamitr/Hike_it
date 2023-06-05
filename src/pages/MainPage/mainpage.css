@@ -60,7 +60,7 @@
 
   .title__hikeit {
     font-size: 4rem;
-    left: calc(50% - 70.7px)
+    text-align: center;
   }
 
   .title__likeit {
