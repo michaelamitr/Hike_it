@@ -6,19 +6,19 @@
   background-color: var(--text-light);
 }
 
-.fish {
+.trail {
   background-image: url('./img/IMG_1802.jpg');
   height: 100px;
   background-size: cover;
 }
 
-.fish__map {
+.trail__map {
   width: 50%;
   height: 400px;
   margin: auto;
 }
 
-.fish__title {
+.trail__title {
   text-align: center;
   font-size: 2rem;
   line-height: 1.5;
@@ -33,65 +33,21 @@
   font-family: 'Caveat', sans-serif;
 }
 
-.gr {
-  background-image: url('./img/IMG_1802.jpg');
-  height: 100px;
-  background-size: cover;
-}
-
-.gr__map {
-  width: 50%;
-  height: 400px;
-  margin: auto;
-}
-
-.gr__title {
-  text-align: center;
-  font-size: 2rem;
-  line-height: 1.5;
-  width: 50vw;
-  height: 50px;
-  background-color: black;
-  opacity: 0.6;
-  color: white;
-  position: relative;
-  left: 25%;
-  top: 25px;
-  font-family: 'Caveat', sans-serif;
-}
-
 @media (max-width: 430px) {
-  .fish__title {
-    font-size: 1.5rem;
-    line-height: 1.9;
-  }
-
-  .gr__title {
+  .trail__title {
     font-size: 1.5rem;
     line-height: 1.9;
   }
 }
 
 @media (min-width: 850px) {
-  .fish {
+  .trail {
     width: 70vw;
     position: relative;
     left: 15%
   }
 
-  .fish__title {
-    width: 50%;
-    font-size: 2.5rem;
-    line-height: 1.2;
-  }
-
-  .gr {
-    width: 70vw;
-    position: relative;
-    left: 15%
-  }
-
-  .gr__title {
+  .trail__title {
     width: 50%;
     font-size: 2.5rem;
     line-height: 1.2;
