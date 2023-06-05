@@ -5,6 +5,7 @@ import './header.css';
 import burgerIcon from './icons/burgermenu-blue.svg';
 import closeIcon from './icons/menu-close-blue.svg';
 import darkModeIcon from './icons/moon-icon-blue.svg';
+import { Fish } from '../../pages/AllTrails/Fish/fish';
 
 export const Header = () => {
   const [open, setOpen] = useState(false);
