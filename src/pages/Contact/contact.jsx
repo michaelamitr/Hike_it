@@ -27,6 +27,24 @@ export const Contacts = () => {
                 michaelamitr
               </a>
             </div>
+            <div className="linkedin">
+              <span className="linkedin-icon"></span>
+              <a
+                href="https://www.linkedin.com/in/michaela-tr%C4%8Dkov%C3%A1-49a739239/"
+                className="email-link"
+              >
+                Michaela Trčková
+              </a>
+            </div>
+            <div className="instagram">
+              <span className="instagram-icon"></span>
+              <a
+                href="https://instagram.com/mihaela_na_uteku?igshid=OGQ5ZDc2ODk2ZA"
+                className="email-link"
+              >
+                @mihaela_na_uteku
+              </a>
+            </div>
           </div>
         </div>
         <img
@@ -50,6 +68,15 @@ export const Contacts = () => {
               <span className="github-icon"></span>
               <a href="https://github.com/havraiv" className="github-link">
                 havraiv
+              </a>
+            </div>
+            <div className="linkedin">
+              <span className="linkedin-icon"></span>
+              <a
+                href="https://www.linkedin.com/in/iva-havranov%C3%A1-14bab025b/"
+                className="email-link"
+              >
+                Iva Havranová
               </a>
             </div>
           </div>
