@@ -19,6 +19,7 @@
   width: 90vw;
   padding: 3rem;
   max-width: 800px;
+  align-items: center;
 }
 
 .person-text {
