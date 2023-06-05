@@ -16,6 +16,19 @@ export const Fish = () => {
           <a href="#">Co s sebou</a>
           <a href="#">Galerie</a>
         </nav>
+        <section className="general">
+          <div className="heading">
+            <h1 className="heading__text">Obecné info</h1>
+          </div>
+          <div className="general__info">
+            <p>Lokalita:</p>
+            <p>Délka:</p>
+            <p>Počet etap:</p>
+            <p>Typ:</p>
+            <p>Obtížnost:</p>
+            <p>Vhodné absolvovat:</p>
+          </div>
+        </section>
       </div>
     </section>
   );
