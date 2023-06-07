@@ -68,9 +68,6 @@
   border-left: 1rem solid var(--backgroung-light-blue);
 }
 
-/* @media (min-width: 500px) {
-  .navigation {}
-} */
 .heading {
   background-image: url('./img/IMG_1802.jpg');
   height: 80px;
@@ -100,6 +97,16 @@
   margin: 1rem;
   display: flex;
   flex-direction: column;
+  max-width: 400px;
+}
+
+.general__text {
+  font-family: var(--font-text);
+  margin: 1rem;
+}
+
+.general__heading {
+  display: none;
 }
 
 @media (min-width: 850px) {
@@ -112,7 +119,30 @@
   }
 
   .heading {
-    width: 70vw;
-    margin: auto;
+    display: none;
+  }
+
+  .heading__text {
+    width: 50%;
+  }
+
+  .general__info {
+    float: right;
+    width: 30%;
+  }
+
+  .general__heading {
+    display: block;
+  }
+
+  .navigation {
+    float: left;
+    margin: 2rem;
+  }
+
+  .navigation::before {
+    left: 80px;
+    height: 250px;
+    top: 0
   }
 }
