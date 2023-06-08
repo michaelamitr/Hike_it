@@ -1,0 +1,31 @@
+.container {
+  /* background-image: url('./img/IMG_1802.jpg'); */
+  height: 80px;
+  background-size: cover;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.2;
+  width: 50%;
+  height: 40px;
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  font-family: 'Caveat', sans-serif;
+}
+
+@media (min-width: 1450px) {
+  .container {
+    display: none;
+  }
+
+  .title {
+    width: 50%;
+  }
+}
