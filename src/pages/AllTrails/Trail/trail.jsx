@@ -4,20 +4,21 @@ import './trail.css';
 export const Trail = () => {
   return (
     <section id="trail">
-      <div className="trail__page">
-        <div className="trail__banner">
-          <div className="title">
-            <h1 className="title__heading">Rybářská stezka</h1>
-          </div>
+      <div className="trail__banner">
+        <div className="title">
+          <h1 className="title__heading">Rybářská stezka</h1>
         </div>
-        <nav className="navigation">
-          <a href="#">Obecné info</a>
-          <a href="#">Etapy</a>
-          <a href="#">Co s sebou</a>
-          <a href="#">Galerie</a>
-        </nav>
+      </div>
+      <div className="trail__page">
         <section className="general">
-          <div className="heading">
+          <nav className="navigation">
+            <a href="#">Obecné info</a>
+            <a href="#">Etapy</a>
+            <a href="#">Co s sebou</a>
+            <a href="#">Galerie</a>
+          </nav>
+
+          <div className="general__heading">
             <h1 className="heading__text">Obecné info</h1>
           </div>
           <div className="general__info">
@@ -28,8 +29,9 @@ export const Trail = () => {
             <p>Obtížnost:</p>
             <p>Vhodné absolvovat:</p>
           </div>
+
           <div className="general__text">
-            <h1 className="general__heading">Obecné info</h1>
+            <h1 className="general__heading--dektop">Obecné info</h1>
             <p>
               Rybářská stezka (Trilho dos Pescadores, Fishermen's Trail) se
               nachází na jihozápadním pobřeží Portugalska. Je to okouzlující

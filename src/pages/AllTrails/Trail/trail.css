@@ -36,7 +36,7 @@
 .navigation::before {
   content: "";
   position: absolute;
-  left: 50vw;
+  left: 50%;
   bottom: -15px;
   width: 10px;
   height: 270px;
@@ -68,7 +68,7 @@
   border-left: 1rem solid var(--backgroung-light-blue);
 }
 
-.heading {
+.general__heading {
   background-image: url('./img/IMG_1802.jpg');
   height: 80px;
   background-size: cover;
@@ -94,7 +94,7 @@
   background-color: var(--backgroung-light-blue);
   color: var(--text-light);
   padding: 1rem;
-  margin: 1rem;
+  margin: 2rem;
   display: flex;
   flex-direction: column;
   max-width: 400px;
@@ -102,14 +102,14 @@
 
 .general__text {
   font-family: var(--font-text);
-  margin: 1rem;
+  margin: 2rem;
 }
 
-.general__heading {
+.general__heading--dektop {
   display: none;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 1450px) {
   .trail__banner {
     height: 505px;
   }
@@ -118,7 +118,12 @@
     font-size: 5rem;
   }
 
-  .heading {
+  .trail__page {
+    width: 70vw;
+    margin: 0 auto;
+  }
+
+  .general__heading {
     display: none;
   }
 
@@ -128,16 +133,17 @@
 
   .general__info {
     float: right;
-    width: 40%
+    width: 40%;
+    margin: 0rem 0 2rem 2rem;
   }
 
-  .general__heading {
+  .general__heading--dektop {
     display: block;
   }
 
   .navigation {
     float: left;
-    margin: 2rem;
+    margin: 0rem 3rem 3rem 2rem;
   }
 
   .navigation::before {
