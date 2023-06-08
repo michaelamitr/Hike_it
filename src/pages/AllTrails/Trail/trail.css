@@ -68,7 +68,7 @@
   border-left: 1rem solid var(--backgroung-light-blue);
 }
 
-.general__heading {
+.trail__heading {
   background-image: url('./img/IMG_1802.jpg');
   height: 80px;
   background-size: cover;
@@ -78,7 +78,7 @@
   justify-content: center;
 }
 
-.heading__text {
+.trail__text {
   text-align: center;
   font-size: 2rem;
   line-height: 1.2;
@@ -140,11 +140,11 @@
     margin: 0 auto;
   }
 
-  .general__heading {
+  .trail__heading {
     display: none;
   }
 
-  .heading__text {
+  .trail__text {
     width: 50%;
   }
 

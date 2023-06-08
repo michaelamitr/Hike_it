@@ -18,8 +18,8 @@ export const Trail = () => {
             <a href="#">Galerie</a>
           </nav>
 
-          <div className="general__heading">
-            <h1 className="heading__text">Obecné info</h1>
+          <div className="trail__heading">
+            <h1 className="trail__text">Obecné info</h1>
           </div>
           <div className="general__info">
             <p>Lokalita:</p>
@@ -99,6 +99,23 @@ export const Trail = () => {
               </a>
               .
             </p>
+          </div>
+        </section>
+        <section className="stages">
+          <div className="trail__heading">
+            <h1 className="trail__text">Etapy</h1>
+          </div>
+        </section>
+
+        <section className="packing">
+          <div className="trail__heading">
+            <h1 className="trail__text">Co s sebou</h1>
+          </div>
+        </section>
+
+        <section className="gallery">
+          <div className="trail__heading">
+            <h1 className="trail__text">Galerie</h1>
           </div>
         </section>
       </div>
