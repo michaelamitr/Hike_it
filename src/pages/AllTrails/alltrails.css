@@ -14,7 +14,7 @@
 }
 
 .trail-gr221 {
-  background-image: url('./img/IMG_1802.jpg');
+  background-image: url('./Gr/img/intro-gr221.jpg');
   height: 100px;
   background-size: cover;
   background-position: center;
@@ -36,7 +36,7 @@
   opacity: 0.8;
   color: white;
   position: relative;
-  left: 25%;
+  left: 25vw;
   top: 25px;
   font-family: 'Caveat', sans-serif;
 }
