@@ -1,6 +1,0 @@
-#gr__trail {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-color: var(--text-light);
-}
