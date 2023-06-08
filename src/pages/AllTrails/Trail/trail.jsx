@@ -19,7 +19,7 @@ export const Trail = () => {
           </nav>
 
           <div className="trail__heading">
-            <h1 className="trail__text">Obecné info</h1>
+            <h2 className="trail__text">Obecné info</h2>
           </div>
           <div className="general__info">
             <p>Lokalita:</p>
@@ -31,7 +31,7 @@ export const Trail = () => {
           </div>
 
           <div className="general__text">
-            <h1 className="general__heading--dektop">Obecné info</h1>
+            <h2 className="general__heading--desktop">Obecné info</h2>
             <p>
               Rybářská stezka (Trilho dos Pescadores, Fishermen's Trail) se
               nachází na jihozápadním pobřeží Portugalska. Je to okouzlující
@@ -103,19 +103,31 @@ export const Trail = () => {
         </section>
         <section className="stages">
           <div className="trail__heading">
-            <h1 className="trail__text">Etapy</h1>
+            <h2 className="trail__text">Etapy</h2>
           </div>
         </section>
 
         <section className="packing">
           <div className="trail__heading">
-            <h1 className="trail__text">Co s sebou</h1>
+            <h2 className="trail__text">Co s sebou</h2>
           </div>
+          <h3 className="packing__heading">Jak se zabalit</h3>
+          <p>
+            Když se chystáte na Rybářskou stezku v Portugalsku, je důležité
+            vědět, co si s sebou zabalit do batohu. Vzhledem k tomu, že
+            Portugalsko má teplé a slunečné počasí po většinu roku, budete
+            potřebovat zejména lehké a pohodlné oblečení, ale také vybavení pro
+            případný déšť a vítr. Zde je seznam věcí, které byste neměli
+            zapomenout.
+          </p>
+          <h4>Oblečení</h4>
+          <h4>Obuv</h4>
+          <h4>Další vybavení</h4>
         </section>
 
         <section className="gallery">
           <div className="trail__heading">
-            <h1 className="trail__text">Galerie</h1>
+            <h2 className="trail__text">Galerie</h2>
           </div>
         </section>
       </div>
