@@ -105,8 +105,12 @@
   margin: 2rem;
 }
 
-.general__heading--desktop {
+.heading__desktop {
   display: none;
+}
+
+.packing__text {
+  margin: 2rem
 }
 
 @media (min-width: 580px) {
@@ -154,7 +158,7 @@
     margin: 0rem 0 2rem 2rem;
   }
 
-  .general__heading--dektop {
+  .heading__desktop {
     display: block;
   }
 

@@ -32,7 +32,7 @@ export const Trail = () => {
           </div>
 
           <div className="general__text">
-            <h2 className="general__heading--desktop">Obecné info</h2>
+            <h2 className="heading__desktop">Obecné info</h2>
             <p>
               Rybářská stezka (Trilho dos Pescadores, Fishermen's Trail) se
               nachází na jihozápadním pobřeží Portugalska. Je to okouzlující
@@ -112,33 +112,35 @@ export const Trail = () => {
           <div className="trail__heading">
             <h2 className="trail__text">Co s sebou</h2>
           </div>
-          <h3 className="packing__heading">Jak se zabalit</h3>
-          <p>
-            Když se chystáte na Rybářskou stezku v Portugalsku, je důležité
-            vědět, co si s sebou zabalit do batohu. Vzhledem k tomu, že
-            Portugalsko má teplé a slunečné počasí po většinu roku, budete
-            potřebovat zejména lehké a pohodlné oblečení, ale také vybavení pro
-            případný déšť a vítr. Zde je seznam věcí, které byste neměli
-            zapomenout.
-          </p>
-          <h4>Oblečení</h4>
-          <Checkbox />
-          <h4>Obuv</h4>
-          <Checkbox />
-          <h4>Další vybavení</h4>
-          <Checkbox />
-          <p>
-            Pokud se chystáte na Fishermen's Trail v zimních měsících, měli
-            byste zvážit následující další vybavení:
-          </p>
-          <Checkbox />
-          <p>
-            Pamatujte si, že méně je někdy více, a že není nutné si s sebou brát
-            příliš mnoho věcí. Mějte na paměti, že každou věc, kterou si
-            zabalíte, si rovněž ponesete na vašich zádech. A nakonec,
-            nezapomeňte na pravidla chování v přírodě, abyste pomohli udržet
-            krásy životního prostředí i pro další generace.
-          </p>
+          <div className="packing__text">
+            <h3 className="heading__desktop">Jak se zabalit</h3>
+            <p>
+              Když se chystáte na Rybářskou stezku v Portugalsku, je důležité
+              vědět, co si s sebou zabalit do batohu. Vzhledem k tomu, že
+              Portugalsko má teplé a slunečné počasí po většinu roku, budete
+              potřebovat zejména lehké a pohodlné oblečení, ale také vybavení
+              pro případný déšť a vítr. Zde je seznam věcí, které byste neměli
+              zapomenout.
+            </p>
+            <h4>Oblečení</h4>
+            <Checkbox />
+            <h4>Obuv</h4>
+            <Checkbox />
+            <h4>Další vybavení</h4>
+            <Checkbox />
+            <p>
+              Pokud se chystáte na Fishermen's Trail v zimních měsících, měli
+              byste zvážit následující další vybavení:
+            </p>
+            <Checkbox />
+            <p>
+              Pamatujte si, že méně je někdy více, a že není nutné si s sebou
+              brát příliš mnoho věcí. Mějte na paměti, že každou věc, kterou si
+              zabalíte, si rovněž ponesete na vašich zádech. A nakonec,
+              nezapomeňte na pravidla chování v přírodě, abyste pomohli udržet
+              krásy životního prostředí i pro další generace.
+            </p>
+          </div>
         </section>
 
         <section className="gallery">
