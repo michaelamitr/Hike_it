@@ -13,8 +13,7 @@ import { MainPage } from './pages/MainPage/mainpage';
 import { AllTrails } from './pages/AllTrails/alltrails';
 import { HumansAndNature } from './pages/HumansAndNature/humansandnature';
 import { Contacts } from './pages/Contact/contact';
-import { Fish } from './pages/AllTrails/Fish/fish';
-import { Gr } from './pages/AllTrails/Gr/gr';
+import { Trail } from './pages/AllTrails/Trail/trail';
 
 const App = () => {
   const location = useLocation();
@@ -49,12 +48,8 @@ const router = createBrowserRouter([
         element: <Contacts />,
       },
       {
-        path: 'fishermans-trail',
-        element: <Fish />,
-      },
-      {
-        path: 'gr221',
-        element: <Gr />,
+        path: 'trail',
+        element: <Trail />,
       },
     ],
   },

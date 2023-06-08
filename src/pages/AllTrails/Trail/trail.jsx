@@ -1,7 +1,7 @@
 import React from 'react';
-import './fish.css';
+import './trail.css';
 
-export const Fish = () => {
+export const Trail = () => {
   return (
     <section id="fish__trail">
       <div className="fish__page">

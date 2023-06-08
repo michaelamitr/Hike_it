@@ -6,24 +6,11 @@
   background-color: var(--text-light);
 }
 
-.trail-fish {
-  background-image: url('./Fish/img/introfish.jpg');
+.trail {
+  background-image: url('./Trail/img/introfish.jpg');
   height: 100px;
   background-size: cover;
   background-position: center;
-}
-
-.trail-gr221 {
-  background-image: url('./Gr/img/intro-gr221.jpg');
-  height: 100px;
-  background-size: cover;
-  background-position: center;
-}
-
-.trail__map {
-  width: 50%;
-  height: 400px;
-  margin: auto;
 }
 
 .trail__title {
@@ -41,6 +28,12 @@
   font-family: 'Caveat', sans-serif;
 }
 
+.trail__map {
+  width: 50%;
+  height: 400px;
+  margin: auto;
+}
+
 @media (max-width: 430px) {
   .trail__title {
     font-size: 1.5rem;
@@ -49,12 +42,6 @@
 }
 
 @media (min-width: 850px) {
-  .trail {
-    width: 70vw;
-    position: relative;
-    left: 15%
-  }
-
   .trail__title {
     width: 50%;
     font-size: 2.5rem;
