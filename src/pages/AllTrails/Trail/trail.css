@@ -1,4 +1,4 @@
-#fish__trail {
+#trail {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@
   font-family: var(--font-text);
 }
 
-.fish__banner {
+.trail__banner {
   background-image: url("./img/introfish.jpg");
   background-size: cover;
   height: 300px;
@@ -110,7 +110,7 @@
 }
 
 @media (min-width: 850px) {
-  .fish__banner {
+  .trail__banner {
     height: 505px;
   }
 

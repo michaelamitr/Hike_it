@@ -3,9 +3,9 @@ import './trail.css';
 
 export const Trail = () => {
   return (
-    <section id="fish__trail">
-      <div className="fish__page">
-        <div className="fish__banner">
+    <section id="trail">
+      <div className="trail__page">
+        <div className="trail__banner">
           <div className="title">
             <h1 className="title__heading">Rybářská stezka</h1>
           </div>
