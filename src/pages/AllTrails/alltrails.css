@@ -6,10 +6,18 @@
   background-color: var(--text-light);
 }
 
-.trail {
+.trail-fish {
+  background-image: url('./Fish/img/introfish.jpg');
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+
+.trail-gr221 {
   background-image: url('./img/IMG_1802.jpg');
   height: 100px;
   background-size: cover;
+  background-position: center;
 }
 
 .trail__map {
