@@ -45,12 +45,13 @@
 
 .did-you-know {
   position: relative;
-  margin: 30px;
   font-family: var(--font-caveat);
   font-size: 1.5rem;
   color: var(--text-light);
   background-color: var(--backgroung-light-blue);
   padding: 0.5rem;
+  margin-top: 1rem;
+  max-width: 600px;
 }
 
 .did-you-know::after {
@@ -68,8 +69,11 @@
 .did-you-know__container {
   background-color: var(--backgroung-light-blue);
   color: var(--text-light);
-  padding: 1rem;
+  padding: 2rem;
   margin: 1rem;
+}
+
+.did-you-know__hide {
   display: none;
 }
 

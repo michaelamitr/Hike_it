@@ -3,8 +3,11 @@ import './humansandnature.css';
 import arrowLeft from './imgandicons/arrow_left.png';
 import arrowRight from './imgandicons/arrow_right.png';
 import wildCamping from './imgandicons/IMG_8742.jpg';
+import { useState } from 'react';
 
 export const HumansAndNature = () => {
+  const [popupView, setPopupView] = useState(false);
+
   return (
     <section id="humans-and-nature">
       <div className="nature__page">
@@ -37,8 +40,16 @@ export const HumansAndNature = () => {
           className="wildcamping__img"
           alt="Stanování"
         ></img>
-        <div className="did-you-know">Věděli jste, že...</div>
-        <div className="did-you-know__container">
+        <div className="did-you-know" onClick={() => setPopupView(!popupView)}>
+          Věděli jste, že...
+        </div>
+        <div
+          className={
+            popupView
+              ? 'did-you-know__container'
+              : 'did-you-know__container did-you-know__hide'
+          }
+        >
           <p className="did-you-know__text">
             Tato koncepce není nová a vznikla již v 60. letech 20. století.
             Původně byla vytvořena americkými skauty a nyní se stala globálním
