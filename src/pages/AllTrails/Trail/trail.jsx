@@ -1,5 +1,6 @@
 import React from 'react';
 import './trail.css';
+import { Checkbox } from './Checkbox/checkbox';
 
 export const Trail = () => {
   return (
@@ -121,8 +122,23 @@ export const Trail = () => {
             zapomenout.
           </p>
           <h4>Oblečení</h4>
+          <Checkbox />
           <h4>Obuv</h4>
+          <Checkbox />
           <h4>Další vybavení</h4>
+          <Checkbox />
+          <p>
+            Pokud se chystáte na Fishermen's Trail v zimních měsících, měli
+            byste zvážit následující další vybavení:
+          </p>
+          <Checkbox />
+          <p>
+            Pamatujte si, že méně je někdy více, a že není nutné si s sebou brát
+            příliš mnoho věcí. Mějte na paměti, že každou věc, kterou si
+            zabalíte, si rovněž ponesete na vašich zádech. A nakonec,
+            nezapomeňte na pravidla chování v přírodě, abyste pomohli udržet
+            krásy životního prostředí i pro další generace.
+          </p>
         </section>
 
         <section className="gallery">
