@@ -28,6 +28,7 @@
   margin: 3rem 0;
   justify-content: space-between;
   align-items: center;
+  max-width: 700px;
 }
 
 .carousell__img {
