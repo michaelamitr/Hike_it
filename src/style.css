@@ -6,6 +6,7 @@
   --text: black;
   --font-text: 'Istok Web';
   --font-caveat: 'Caveat';
+  --link-text: rgb(35, 160, 0);
 }
 
 * {

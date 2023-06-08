@@ -12,12 +12,82 @@
     "info": "",
     "stages": {
       "1": {
-        "property1": "Value 1",
-        "property2": "Value 2"
+        "name": "São Torpes – Porto Covo",
+        "distance": "9,7 km",
+        "duration": "2:27 h",
+        "description": "Krátký nenáročný úsek, který Vás vyvede z města Sines, které má průmyslovější charakter, vstříc nádherné přírodě podél Atlantiku. Po cestě jsou ze začátku přístupy na pláže. Později půjdete i okolo restaurace."
       },
       "2": {
-        "property1": "Value 1",
-        "property2": "Value 2"
+        "name": "Porto Covo – Vila Nova de Milfontes",
+        "distance": "19,4 km",
+        "duration": "5:10 h",
+        "description": "Tato část trasy se obecně považuje za jednu z nejkrásnějších. Za sebe však mohu říct, že každá etapa je jedinečná, má něco do sebe a stojí za to. Dechberoucí útesy a pláže na vás už čekají."
+      },
+      "3": {
+        "name": "Vila Nova de Milfontes – Almograve",
+        "distance": "9,7 km",
+        "duration": "2:27 h",
+        "description": "Mimo zimní měsíce si můžete cestu přes most z Vila Nova de Milfontes směrem na Almograve zkrátit přívozem. A až se dostanete na druhou stranu, můžete si dát něco na zub v místní příjemné restauraci, jak jinak než s výhledem na moře."
+      },
+      "4": {
+        "name": "Almograve – Zambujeira do Mar",
+        "distance": "21,5 km",
+        "duration": "5:50",
+        "description": "Nechte se pohltit výhledem na dechberoucí útesy a potěšte se pohledem na hnízdící čápi. Pokud budete mít štěstí a bude velký odliv, podaří se vám z pláže Praia de Nossa Senhora dostat na další dvě pláže, které jsou za přílivu zcela zaplavené oceánem."
+      },
+      "5": {
+        "name": "Zambujeira do Mar – Odeceixe",
+        "distance": "18,9 km",
+        "duration": "5:29 h",
+        "description": "Nesmíte vynechat pláž Praia dos Alteirinhos, neboli jak by řekla Michaela, její pláž. Pokud budete mít štěstí a bude zrovna odliv, podaří se vám nahlédnout do útesových jeskyněk. Jakmile dorazíte do Azenha do Mar, dát si něco na zub v malé restauraci Café Palhinhas s úchvatným výhledem na moře se opravdu vyplatí."
+      },
+      "6": {
+        "name": "Odeceixe – Aljezur",
+        "distance": "22,6 km",
+        "duration": "5:58 h",
+        "description": "Pláže a útesy se nikdy neomrzí, oceán má své kouzlo. V odeceixe se vyplatí podívat se nahoru na kopec k větrnému mlýnu."
+      },
+      "7": {
+        "name": "Aljezur – Arrifana",
+        "distance": "17,1 km",
+        "duration": "4:46 h",
+        "description": "Arrifana je asi nejopuštěnější místo ze všech průchozích bodů trasy. Je to však velmi populární destinace pro surfaře, takže se nemusíte bát, že tu budete úplně sami. Přímo podél trasy se však nenachází žádný obchod, tak je lepší s tím počítat."
+      },
+      "8": {
+        "name": "Arrifana – Carrapateira",
+        "distance": "19,5 km",
+        "duration": "5:12 h",
+        "description": "Občas vás v této řekněme druhé půlce treku čeká i cesta ne přímo podél útesů, ale i vesničky, pole a lesy ve mnitrození jsou okouzlující. Carrapateira je roztomilé místo."
+      },
+      "9": {
+        "name": "Carrapateira – Vila do Bispo",
+        "distance": "15,3 km",
+        "duration": "4:18 h",
+        "description": "Začnete stáčet více do vnitrozemí, užijte si klid lesů a portugalského venkova. Dost možná potkáte ovečky se zvonci na krku. Pozdravujte je."
+      },
+      "10": {
+        "name": "Vila do Bispo – Sagres",
+        "distance": "20,2 km",
+        "duration": "5:18 h",
+        "description": "Sagres je proslulá díky keramice a nepřekvapivě surfování. Udělejte si zastávku na Farol do Cabo de São Vicente, nejzazší jihozápadní výběžek evropského kontinentu a výchozí bod Evropské dálkové trasy E9."
+      },
+      "11": {
+        "name": "Sagres – Salema",
+        "distance": "19,5 km",
+        "duration": "5:30 h",
+        "description": "Odpočiňte si třeba na Praia do Zavial, kde narazíte i na příjemnou restauraci. Nebo na útulný lesík přímo za pláží, ve kterém se dá nouzově přenocovat."
+      },
+      "12": {
+        "name": "Salema – Luz",
+        "distance": "11,5 km",
+        "duration": "3:24 h",
+        "description": "Už teď se vám po Rybářské stezce stýská, že? Ale nezoufejte, kdykoliv se sem můžete vrátit, přeci jen, stezka se v čase mění. Zůstává stále krásná. Potkáte však různé druhy květů, různé lidi a třeba poznáte i novou část svého já. V Luz si pak nezapomeňte dopřát zasloužený odpočinek v kavárně Bombordo."
+      },
+      "13": {
+        "name": "Luz – Lagos",
+        "distance": "10,7 km",
+        "duration": "3:09 h",
+        "description": "Kochejte se, výhledy jako z obrázku vás čekají i dnes. Těšit se můžete i na skalní brány. Vychutnejte si oceán a místní přírodu naplno."
       }
     }
   }
