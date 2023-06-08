@@ -82,7 +82,7 @@
   text-align: center;
   font-size: 2rem;
   line-height: 1.2;
-  width: 50vw;
+  width: 50%;
   height: 40px;
   background-color: black;
   opacity: 0.8;
@@ -107,6 +107,23 @@
 
 .general__heading--dektop {
   display: none;
+}
+
+@media (min-width: 580px) {
+  .trail__page {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .trail__banner {
+    height: 505px;
+  }
+}
+
+@media (min-width: 850px) {
+  .title__heading {
+    font-size: 5rem;
+  }
 }
 
 @media (min-width: 1450px) {
