@@ -1,5 +1,6 @@
 [
   {
+    "banner-image": "TADY BUDE CESTA",
     "general": {
       "name": "Rybářská Stezka",
       "location": "Portugalsko",
@@ -9,7 +10,7 @@
       "difficulty": 2,
       "monthsToGo": [1, 2, 3, 4, 5, 9, 10, 11, 12]
     },
-    "info": "",
+    "info": "TADY ASI BUDE NĚJAK INTELIGENTNĚ TEN DLOUHÝ POPIS",
     "stages": {
       "1": {
         "name": "São Torpes – Porto Covo",
@@ -89,6 +90,101 @@
         "duration": "3:09 h",
         "description": "Kochejte se, výhledy jako z obrázku vás čekají i dnes. Těšit se můžete i na skalní brány. Vychutnejte si oceán a místní přírodu naplno."
       }
+    },
+    "what-to-pack": "DODĚLÁME",
+    "gallery": {
+      "1": "URL",
+      "2": "URL",
+      "3": "URL",
+      "4": "URL",
+      "5": "URL",
+      "6": "URL",
+      "7": "URL",
+      "8": "URL",
+      "9": "URL",
+      "10": "URL"
+    }
+  },
+  {
+    "banner-image": "TADY BUDE CESTA",
+    "general": {
+      "name": "GR 221",
+      "location": "Mallorca",
+      "length": 135,
+      "stagesNumber": 9,
+      "type": "vnitrozemní",
+      "difficulty": 3,
+      "monthsToGo": [3, 4, 5, 9, 10]
+    },
+    "info": "TADY ASI BUDE NĚJAK INTELIGENTNĚ TEN DLOUHÝ POPIS",
+    "stages": {
+      "1": {
+        "name": "Port d'Andratx – Sant Elm",
+        "distance": "11 km",
+        "duration": "3 h",
+        "description": "Začátek trasy je v přístavu Port d'Andratx, který se nachází na západním pobřeží Mallorcy. Tato etapa nabízí krásné výhledy na moře a skalnaté pobřeží. Končí v příjemném letovisku Sant Elm."
+      },
+      "2": {
+        "name": "Sant Elm – Estellencs",
+        "distance": "22 km",
+        "duration": "9 h",
+        "description": "Tato etapa pokračuje od Sant Elm přes kopce a údolí směrem k malebné vesnici Estellencs. Trasa nabízí panoramatické výhledy na moře a údolí, a také průchod olivovými háji."
+      },
+      "3": {
+        "name": "Estellencs – Esporles",
+        "distance": "18 km",
+        "duration": "6 h",
+        "description": "Třetí etapa pokračuje přes kopcovitý terén a údolí. Začíná ve vesnici Estellencs a končí v Esporles, které je malebnou vesnicí s typickou mallorskou architekturou."
+      },
+      "4": {
+        "name": "Esporles – Valldemossa",
+        "distance": "11 km",
+        "duration": "4 h",
+        "description": "Tato etapa vede z Esporles do Valldemossy. Cesta vede lesy a údolími, a nabízí nádherné výhledy na okolní hory a vesnice. Valldemossa je historické město s klášterem a malebnými uličkami."
+      },
+      "5": {
+        "name": "Valldemossa – Deià",
+        "distance": "10 km",
+        "duration": "3 h",
+        "description": "Pátá etapa pokračuje z Valldemossy do malebné vesnice Deià. Trasa vede úzkými cestami s výhledy na pobřeží a skalní útesy. Deià je známá pro svou uměleckou atmosféru a půvabné prostředí."
+      },
+      "6": {
+        "name": "Deià – Sóller",
+        "distance": "10 km",
+        "duration": "4 h",
+        "description": "Tato etapa začíná v Deià a vede přes skalnaté terény a lesy směrem k malebnému městu Sóller. Trasa nabízí úchvatné výhledy na horu Puig Major, nejvyšší horu Mallorcy."
+      },
+      "7": {
+        "name": "Sóller – Tossals Verds",
+        "distance": "15 km",
+        "duration": "6 h",
+        "description": "Relativně náročný úsek trasy, který se line krásnými nejen olivovými háji a dovede Vás až k malebným jezerům. Pokud nestačíte dojít až do vesnice Lluc, doporučuji přenocovat v ubytovně Els Tossals Verds."
+      },
+      "8": {
+        "name": "Tossals Verds – Lluc",
+        "distance": "14 km",
+        "duration": "6 h",
+        "description": "Kochejte se krásným výhledem na okolní krajinu a tešte se na uklidňující procházku klášterem v Lluc. Je také možné si zde doplnit tekutiny – na to nezapomínejte. 🙂"
+      },
+      "9": {
+        "name": "Lluc – Port de Pollença",
+        "distance": "22 km",
+        "duration": "7 h",
+        "description": "Poslední etapa vede z města Sóller do přístavu Port de Pollença. Tato část trasy nabízí malebné výhledy na horské masivy a moře."
+      }
+    },
+    "what-to-pack": "DODĚLÁME",
+    "gallery": {
+      "1": "URL",
+      "2": "URL",
+      "3": "URL",
+      "4": "URL",
+      "5": "URL",
+      "6": "URL",
+      "7": "URL",
+      "8": "URL",
+      "9": "URL",
+      "10": "URL"
     }
   }
 ]
