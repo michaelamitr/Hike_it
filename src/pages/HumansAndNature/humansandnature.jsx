@@ -1,7 +1,8 @@
 import React from 'react';
 import './humansandnature.css';
-import arrowLeft from './arrows/arrow_left.png';
-import arrowRight from './arrows/arrow_right.png';
+import arrowLeft from './imgandicons/arrow_left.png';
+import arrowRight from './imgandicons/arrow_right.png';
+import wildCamping from './imgandicons/IMG_8742.jpg';
 
 export const HumansAndNature = () => {
   return (
@@ -31,7 +32,11 @@ export const HumansAndNature = () => {
             alt="arrow to the left"
           />
         </div>
-        <div className="nature__img">Nedáme sem obrázek?</div>
+        <img
+          src={wildCamping}
+          className="wildcamping__img"
+          alt="Stanování"
+        ></img>
         <div className="did-you-know">Věděli jste, že...</div>
         <div className="did-you-know__container">
           <p className="did-you-know__text">
