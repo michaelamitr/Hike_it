@@ -7,7 +7,14 @@ import { useState } from 'react';
 
 export const HumansAndNature = () => {
   const [popupView, setPopupView] = useState(false);
-
+  const [text, setText] = useState(0);
+  const carousellText = [
+    '1. Při táboření kempujeme pouze na povolených místech. Dbejme na to, abychom nezanechali žádné stopy po táboření.',
+    '2. Dodržujme zákazy rozdělávání ohně. Ohniště zakládáme pouze na určených místech, ne však v případě, kdy to není povoleno.',
+    '3. Nepoškozujme živou přírodu a neberme si s sebou domů rostliny ani zvířata.',
+    '4. Znečišťujme přírodu co nejméně. Nesmíme po sobě zanechávat odpadky, použitý toaletní papír ani jiný odpad.',
+    '5. Udržujme ticho. Nepořádáme hlučné večírky a nerušíme noční klid. Buďme ohleduplní ke všem zvířecím i lidským obyvatelům daného prostředí. ',
+  ]; //to pak přesuneme
   return (
     <section id="humans-and-nature">
       <div className="nature__page">
@@ -21,15 +28,18 @@ export const HumansAndNature = () => {
         </p>
         <div className="carousell">
           <img
+            onClick={() => {
+              text > 0 ? setText(text - 1) : setText(4);
+            }}
             className="carousell__img"
             src={arrowLeft}
             alt="arrow to the left"
           />
-          <p className="carousell__text">
-            Při táboření kempujeme pouze na povolených místech. Dbejme na to,
-            abychom nezanechali žádné stopy po táboření.
-          </p>
+          <p className="carousell__text">{carousellText[text]}</p>
           <img
+            onClick={() => {
+              text === 4 ? setText(0) : setText(text + 1);
+            }}
             className="carousell__img"
             src={arrowRight}
             alt="arrow to the left"
