@@ -1,6 +1,12 @@
 [
   {
-    "banner-image": "TADY BUDE CESTA",
+    "banner-image": "../public/img/FishTrail/intro-fish.jpg",
+    "section-images": {
+      "1": "../public/img/FishTrail/26",
+      "2": "../public/img/FishTrail/27",
+      "3": "../public/img/FishTrail/28",
+      "4": "../public/img/FishTrail/29"
+    },
     "general": {
       "name": "Rybářská Stezka",
       "location": "Portugalsko",
@@ -93,20 +99,41 @@
     },
     "what-to-pack": "DODĚLÁME",
     "gallery": {
-      "1": "URL",
-      "2": "URL",
-      "3": "URL",
-      "4": "URL",
-      "5": "URL",
-      "6": "URL",
-      "7": "URL",
-      "8": "URL",
-      "9": "URL",
-      "10": "URL"
+      "1": "../public/img/FishTrail/1",
+      "2": "../public/img/FishTrail/2",
+      "3": "../public/img/FishTrail/3",
+      "4": "../public/img/FishTrail/4",
+      "5": "../public/img/FishTrail/5",
+      "6": "../public/img/FishTrail/6",
+      "7": "../public/img/FishTrail/7",
+      "8": "../public/img/FishTrail/8",
+      "9": "../public/img/FishTrail/9",
+      "10": "../public/img/FishTrail/10",
+      "11": "../public/img/FishTrail/11",
+      "12": "../public/img/FishTrail/12",
+      "13": "../public/img/FishTrail/13",
+      "14": "../public/img/FishTrail/14",
+      "15": "../public/img/FishTrail/15",
+      "16": "../public/img/FishTrail/16",
+      "17": "../public/img/FishTrail/17",
+      "18": "../public/img/FishTrail/18",
+      "19": "../public/img/FishTrail/19",
+      "20": "../public/img/FishTrail/20",
+      "21": "../public/img/FishTrail/21",
+      "22": "../public/img/FishTrail/22",
+      "23": "../public/img/FishTrail/23",
+      "24": "../public/img/FishTrail/24",
+      "25": "../public/img/FishTrail/25"
     }
   },
   {
     "banner-image": "TADY BUDE CESTA",
+    "section-images": {
+      "1": "../public/img/GR221/26",
+      "2": "../public/img/GR221/27",
+      "3": "../public/img/GR221/28",
+      "4": "../public/img/GR221/29"
+    },
     "general": {
       "name": "GR 221",
       "location": "Mallorca",
@@ -175,16 +202,31 @@
     },
     "what-to-pack": "DODĚLÁME",
     "gallery": {
-      "1": "URL",
-      "2": "URL",
-      "3": "URL",
-      "4": "URL",
-      "5": "URL",
-      "6": "URL",
-      "7": "URL",
-      "8": "URL",
-      "9": "URL",
-      "10": "URL"
+      "1": "../public/img/GR221/1",
+      "2": "../public/img/GR221/2",
+      "3": "../public/img/GR221/3",
+      "4": "../public/img/GR221/4",
+      "5": "../public/img/GR221/5",
+      "6": "../public/img/GR221/6",
+      "7": "../public/img/GR221/7",
+      "8": "../public/img/GR221/8",
+      "9": "../public/img/GR221/9",
+      "10": "../public/img/GR221/10",
+      "11": "../public/img/GR221/11",
+      "12": "../public/img/GR221/12",
+      "13": "../public/img/GR221/13",
+      "14": "../public/img/GR221/14",
+      "15": "../public/img/GR221/15",
+      "16": "../public/img/GR221/16",
+      "17": "../public/img/GR221/17",
+      "18": "../public/img/GR221/18",
+      "19": "../public/img/GR221/19",
+      "20": "../public/img/GR221/20",
+      "21": "../public/img/GR221/21",
+      "22": "../public/img/GR221/22",
+      "23": "../public/img/GR221/23",
+      "24": "../public/img/GR221/24",
+      "25": "../public/img/GR221/25"
     }
   }
 ]
