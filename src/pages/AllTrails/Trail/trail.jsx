@@ -1,6 +1,7 @@
 import React from 'react';
 import './trail.css';
 import { Checkbox } from './Checkbox/checkbox';
+import { Stage } from './Stage/stage';
 
 export const Trail = () => {
   return (
