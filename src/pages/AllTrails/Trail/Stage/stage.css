@@ -1,0 +1,9 @@
+.container {
+  background-color: var(--backgroung-light-blue);
+  color: var(--text-light);
+  font-family: var(--font-text);
+}
+
+.title {
+  font-family: var(--font-caveat);
+}
