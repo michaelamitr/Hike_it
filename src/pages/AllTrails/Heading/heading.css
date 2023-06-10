@@ -26,12 +26,11 @@
   }
 }
 
-@media (min-width: 1450px) {
+/* @media (min-width: 1450px) {
   .heading__container {
     display: none;
-  }
+  } */
 
-  .heading__title {
-    width: 50%;
-  }
+.heading__title {
+  width: 50%;
 }
