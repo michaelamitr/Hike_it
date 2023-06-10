@@ -3,17 +3,16 @@ import './alltrails.css';
 import { NavLink } from 'react-router-dom';
 import data from '../../trails.json';
 import { Heading } from './Heading/heading';
+import { TrailItem } from './TrailItem/trailitem';
 
 export const AllTrails = () => {
   return (
     <section id="all-trails">
-      <div className="trail">
-        <NavLink to="/trail">
-          <h1 className="trail__title">Rybářská stezka</h1>
-        </NavLink>
-        {/* <Heading url={data[0]['banner-image']} title={data[0].general.name} /> jen pro kontrolu jestli funguje background-image*/}
-      </div>
-      <div className="trail__map">tady bude mapa</div>
+      {data.map((trails) => {
+        return (
+          <TrailItem title={trails.general.name} url={trails['banner-image']} />
+        );
+      })}
     </section>
   );
 };
