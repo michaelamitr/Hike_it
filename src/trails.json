@@ -2,10 +2,11 @@
   {
     "banner-image": "../public/img/FishTrail/intro-fish.jpg",
     "section-images": {
-      "1": "../public/img/FishTrail/26",
-      "2": "../public/img/FishTrail/27",
-      "3": "../public/img/FishTrail/28",
-      "4": "../public/img/FishTrail/29"
+      "1": "../public/img/FishTrail/25",
+      "2": "../public/img/FishTrail/26",
+      "3": "../public/img/FishTrail/27",
+      "4": "../public/img/FishTrail/28",
+      "5": "../public/img/FishTrail/29"
     },
     "general": {
       "name": "Rybářská Stezka",
@@ -159,12 +160,13 @@
     }
   },
   {
-    "banner-image": "TADY BUDE CESTA",
+    "banner-image": "../public/img/GR221/intro-gr221",
     "section-images": {
-      "1": "../public/img/GR221/26",
-      "2": "../public/img/GR221/27",
-      "3": "../public/img/GR221/28",
-      "4": "../public/img/GR221/29"
+      "1": "../public/img/GR221/25",
+      "2": "../public/img/GR221/26",
+      "3": "../public/img/GR221/27",
+      "4": "../public/img/GR221/28",
+      "5": "../public/img/GR221/29"
     },
     "general": {
       "name": "GR 221",

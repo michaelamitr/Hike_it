@@ -1,5 +1,4 @@
-.container {
-  /* background-image: url('./img/IMG_1802.jpg'); */
+.heading__container {
   height: 80px;
   background-size: cover;
   margin: 1rem 0;
@@ -8,7 +7,7 @@
   justify-content: center;
 }
 
-.title {
+.heading__title {
   text-align: center;
   font-size: 2rem;
   line-height: 1.2;

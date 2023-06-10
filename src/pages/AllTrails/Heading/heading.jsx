@@ -1,10 +1,13 @@
 import React from 'react';
 import './heading.css';
 
-export const Heading = ({ title }) => {
+export const Heading = ({ title, url }) => {
   return (
-    <div className="container">
-      <h2 className="title">{title}</h2>
+    <div
+      className="heading__container"
+      style={{ backgroundImage: `url${url}` }}
+    >
+      <h2 className="heading__title">{title}</h2>
     </div>
   );
 };
