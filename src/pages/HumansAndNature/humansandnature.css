@@ -44,15 +44,24 @@
 }
 
 .did-you-know {
-  position: relative;
-  font-family: var(--font-caveat);
-  font-size: 1.5rem;
-  color: var(--text-light);
   background-color: var(--backgroung-light-blue);
-  padding: 0.5rem;
-  margin-top: 1rem;
-  max-width: 600px;
+  color: var(--text-light);
+  position: relative;
+  z-index: 1;
+  display: flex;
+  height: 2.55rem;
+  width: 10rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Caveat', sans-serif;
+  font-size: 1.6rem;
   cursor: pointer;
+}
+
+.did-you-know:hover {
+  scale: 1.05;
+  font-weight: 600;
 }
 
 .did-you-know::after {
@@ -61,10 +70,13 @@
   width: 0;
   height: 0;
   bottom: 0rem;
-  right: -1rem;
-  border-top: 1.45rem solid transparent;
-  border-bottom: 1.45rem solid transparent;
+  left: 10rem;
+  border-top: 1.3rem solid transparent;
+  border-bottom: 1.3rem solid transparent;
   border-left: 1rem solid var(--backgroung-light-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .did-you-know__container {
