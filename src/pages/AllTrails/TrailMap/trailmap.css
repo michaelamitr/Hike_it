@@ -1,6 +1,18 @@
 .trail-item-map-container {
-  width: 416px;
   margin: 20px;
+}
+
+@media (min-width:300px) {
+  .trail-item-map-container {
+    width: 300px;
+  }
+}
+
+@media (min-width: 450px) {
+  .trail-item-map-container {
+    width: 416px;
+    margin: 20px;
+  }
 }
 
 .card {

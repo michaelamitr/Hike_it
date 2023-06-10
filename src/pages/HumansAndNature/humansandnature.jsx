@@ -50,9 +50,6 @@ export const HumansAndNature = () => {
           className="wildcamping__img"
           alt="Stanování"
         ></img>
-        <div className="did-you-know" onClick={() => setPopupView(!popupView)}>
-          Věděli jste, že...
-        </div>
         <div
           className={
             popupView
@@ -69,6 +66,9 @@ export const HumansAndNature = () => {
             napomoci udržitelnému cestování a zachování krás naší planety pro
             budoucí generace.
           </p>
+        </div>
+        <div className="did-you-know" onClick={() => setPopupView(!popupView)}>
+          Věděli jste, že...
         </div>
       </div>
     </section>
