@@ -23,14 +23,13 @@ export const Trail = () => {
         </div>
       </div>
       <div className="trail__page">
-        <section className="general">
-          <nav className="navigation">
-            <a href="#">Obecné info</a>
-            <a href="#">Etapy</a>
-            <a href="#">Co s sebou</a>
-            <a href="#">Galerie</a>
-          </nav>
-
+        <nav className="navigation">
+          <a href="#general">Obecné info</a>
+          <a href="#stages">Etapy</a>
+          <a href="#packing">Co s sebou</a>
+          <a href="#gallery">Galerie</a>
+        </nav>
+        <section className="general" id="general">
           <Heading title="Obecné" url={trailData.sectionImages.general} />
           <div className="general__info">
             <p>Lokalita: {trailData.general.location}</p>
@@ -46,7 +45,7 @@ export const Trail = () => {
             className="general__text"
           />
         </section>
-        <section className="stages">
+        <section className="stages" id="stages">
           <Heading title="Etapy" url={trailData.sectionImages.stages} />
           <TrailMap
             key={trailData.mapData.id}
@@ -59,12 +58,12 @@ export const Trail = () => {
           />
         </section>
 
-        <section className="packing">
+        <section className="packing" id="packing">
           <Heading title="Co s sebou" url={trailData.sectionImages.packing} />
           <Packing packing={trailData.whatToPack} />
         </section>
 
-        <section className="gallery">
+        <section className="gallery" id="gallery">
           <Heading title="Galerie" url={trailData.sectionImages.gallery} />
         </section>
       </div>
