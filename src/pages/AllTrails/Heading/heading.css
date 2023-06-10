@@ -27,11 +27,11 @@
 }
 
 @media (min-width: 1450px) {
-  .container {
+  .heading__container {
     display: none;
   }
 
-  .title {
+  .heading__title {
     width: 50%;
   }
 }
