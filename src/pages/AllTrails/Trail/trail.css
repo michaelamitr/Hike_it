@@ -36,9 +36,9 @@
   content: "";
   position: absolute;
   left: 50%;
-  bottom: -15px;
+  bottom: 0px;
   width: 10px;
-  height: 270px;
+  height: 255px;
   background: rgb(92, 51, 5);
 }
 
@@ -113,10 +113,6 @@
   font-weight: bold;
 }
 
-.heading__desktop {
-  display: none;
-}
-
 .packing__text {
   margin: 2rem
 }
@@ -152,22 +148,14 @@
     margin: 0 auto;
   }
 
-  .trail__heading {
-    display: none;
-  }
-
   .trail__text {
     width: 50%;
   }
 
   .general__info {
-    float: right;
+    /* float: right; */
     width: 40%;
     margin: 0rem 0 2rem 2rem;
-  }
-
-  .heading__desktop {
-    display: block;
   }
 
   .navigation {

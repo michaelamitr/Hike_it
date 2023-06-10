@@ -41,10 +41,10 @@ export const Trail = () => {
             <p>Vhodné absolvovat: {trailData.general.monthsToGo}</p>
           </div>
 
-          <div className="general__text">
-            {/* <h2 className="heading__desktop">Obecné info</h2> */}
-            {trailData.info}
-          </div>
+          <div
+            dangerouslySetInnerHTML={{ __html: trailData.info }}
+            className="general__text"
+          />
         </section>
         <section className="stages">
           <Heading title="Etapy" url={trailData.sectionImages.stages} />
