@@ -290,64 +290,8 @@
       "monthsToGo": "3, 4, 5, 9, 10"
     },
     "info": "<p>GR221 se nachází na severozápadní části španělského ostrova Mallorca. Je také známá jako Ruta de Pedra en Sec neboli Suchá kamenná cesta. Tato trasa prochází horskými oblastmi Serra de Tramuntana, které je zapsáno na seznamu světového dědictví UNESCO, a nabízí nádherné výhledy na hory, údolí, olivové háje a rustikální vesnice. Během túry na GR221 můžeš očekávat dramatické scenérie, skalnaté vrcholy, útesy nad mořem a nádherné panoramatické pohledy na ostrov.</p><p>Trasa je rozdělena do devíti etap, které se liší délkou a obtížností. Každá etapa končí ve vesnicích, kde si můžeš odpočinout, najít ubytování a ochutnat místní kuchyni. Začátek trasy je v přístavu Port d'Andratx, který se nachází na západním pobřeží Mallorcy a končí v přístavu Port de Pollença. Některé z nejznámějších vesnic na trase jsou Estellencs, Valldemossa, Deià a Sóller.</p><p>GR221 není vyhrazena pouze pro zkušené pěší turisty, ale také pro milovníky přírody a dobrodružství. Je důležité být dobře připravený, s vhodnou výbavou, dostatkem vody a znalostí základních turistických dovedností. Co se týká vody, opravdu doporučujeme doplnit velké zásoby vždy, kdy je to možné. Voda je dostupná ve městech.</p><p>Trasu je možné absolvovat celoročně, ale doporučované jsou převážně jarní a podzimní měsíce. V létě (červenec – srpen) může být na Mallorce velmi horko, teploty mohou přesahovat 30 °C a přímé sluneční světlo je intenzivní. Tato období mohou být fyzicky náročnější kvůli vysokým teplotám, a proto je důležité mít dostatečné množství vody a chránit se před sluncem. V zimě (prosinec – únor) mohou být některé úseky trasy zasněžené nebo kluzké, ačkoli sníh na Mallorce není příliš častý jev. Teploty se pohybují kolem 10–15 °C, ale v horských oblastech mohou být nižší.</p><p>Během túry GR221 je dobré počítat s tím, že ubytování může být omezené a je vhodné ho rezervovat dopředu, zejména pokud se plánuje cestovat v hlavní sezóně nebo během víkendů. Doporučuje se rezervovat ubytování předem, aby se zajistilo, že budete mít místo k přenocování. Mnoho ubytovacích zařízení, jako jsou horské chaty, horské boudy nebo agroturistické hotely, nabízí omezenou kapacitu a mohou být rychle obsazené, zejména v hlavních turistických sezónách a vzhledem k tomu, že se GR221 stává čím dál častěji vyhledávaným dobrodružstvím.</p><p>Zajímavost: Na cestě GR221 existuje více variant, můžete si tedy vybrat, jaká je pro vás nejvhodnější. Vzhledem ke slušnému pokrytí autobusové dopravy po celém ostrově není problém se kdykoli dostat do cíle a trasu si tak naplánovat podle sebe.</p><p>Užitečné odkazy: <a href='https://www.tib.org/en/inici'>TIB – autobusy</a><a href='https://gr221.info/huts.htm'>Ubytování po trase a další užitečné informace</a></p>",
-    "stages": {
-      "1": {
-        "name": "Port d'Andratx – Sant Elm",
-        "distance": "11 km",
-        "duration": "3 h",
-        "description": "Začátek trasy je v přístavu Port d'Andratx, který se nachází na západním pobřeží Mallorcy. Tato etapa nabízí krásné výhledy na moře a skalnaté pobřeží. Končí v příjemném letovisku Sant Elm."
-      },
-      "2": {
-        "name": "Sant Elm – Estellencs",
-        "distance": "22 km",
-        "duration": "9 h",
-        "description": "Tato etapa pokračuje od Sant Elm přes kopce a údolí směrem k malebné vesnici Estellencs. Trasa nabízí panoramatické výhledy na moře a údolí, a také průchod olivovými háji."
-      },
-      "3": {
-        "name": "Estellencs – Esporles",
-        "distance": "18 km",
-        "duration": "6 h",
-        "description": "Třetí etapa pokračuje přes kopcovitý terén a údolí. Začíná ve vesnici Estellencs a končí v Esporles, které je malebnou vesnicí s typickou mallorskou architekturou."
-      },
-      "4": {
-        "name": "Esporles – Valldemossa",
-        "distance": "11 km",
-        "duration": "4 h",
-        "description": "Tato etapa vede z Esporles do Valldemossy. Cesta vede lesy a údolími, a nabízí nádherné výhledy na okolní hory a vesnice. Valldemossa je historické město s klášterem a malebnými uličkami."
-      },
-      "5": {
-        "name": "Valldemossa – Deià",
-        "distance": "10 km",
-        "duration": "3 h",
-        "description": "Pátá etapa pokračuje z Valldemossy do malebné vesnice Deià. Trasa vede úzkými cestami s výhledy na pobřeží a skalní útesy. Deià je známá pro svou uměleckou atmosféru a půvabné prostředí."
-      },
-      "6": {
-        "name": "Deià – Sóller",
-        "distance": "10 km",
-        "duration": "4 h",
-        "description": "Tato etapa začíná v Deià a vede přes skalnaté terény a lesy směrem k malebnému městu Sóller. Trasa nabízí úchvatné výhledy na horu Puig Major, nejvyšší horu Mallorcy."
-      },
-      "7": {
-        "name": "Sóller – Tossals Verds",
-        "distance": "15 km",
-        "duration": "6 h",
-        "description": "Relativně náročný úsek trasy, který se line krásnými nejen olivovými háji a dovede Vás až k malebným jezerům. Pokud nestačíte dojít až do vesnice Lluc, doporučuji přenocovat v ubytovně Els Tossals Verds."
-      },
-      "8": {
-        "name": "Tossals Verds – Lluc",
-        "distance": "14 km",
-        "duration": "6 h",
-        "description": "Kochejte se krásným výhledem na okolní krajinu a tešte se na uklidňující procházku klášterem v Lluc. Je také možné si zde doplnit tekutiny – na to nezapomínejte. 🙂"
-      },
-      "9": {
-        "name": "Lluc – Port de Pollença",
-        "distance": "22 km",
-        "duration": "7 h",
-        "description": "Poslední etapa vede z města Sóller do přístavu Port de Pollença. Tato část trasy nabízí malebné výhledy na horské masivy a moře."
-      }
-    },
-    "what-to-pack": {
-      "start-text": "Při balení na cestu GR221 se rozhodujte převážně podle počasí, vzhledem k tomu, v jaké části roku se rozhodnete jít. Při výběru oblečení je vhodné vše vrstvit, abyste případně mohli rychle přidat/sundat další kus oblečení.",
+    "whatToPack": {
+      "startText": "Při balení na cestu GR221 se rozhodujte převážně podle počasí, vzhledem k tomu, v jaké části roku se rozhodnete jít. Při výběru oblečení je vhodné vše vrstvit, abyste případně mohli rychle přidat/sundat další kus oblečení.",
       "categories": {
         "clothes": [
           "Termo nebo funkční spodní prádlo",
