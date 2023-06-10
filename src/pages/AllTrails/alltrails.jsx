@@ -1,6 +1,5 @@
 import React from 'react';
 import './alltrails.css';
-import { NavLink } from 'react-router-dom';
 import data from '../../trails.json';
 import { TrailItem } from './TrailItem/trailitem';
 
