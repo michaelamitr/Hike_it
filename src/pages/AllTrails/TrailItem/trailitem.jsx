@@ -1,6 +1,6 @@
 import React from 'react';
 import { Heading } from '../Heading/heading';
-import { TrailMap } from '../Map/trailmap';
+import { TrailMap } from '../TrailMap/trailmap';
 import { Link } from 'react-router-dom';
 import './trailitem.css';
 

@@ -354,29 +354,29 @@
     "mapData": {
       "mapComponentData": {
         "zoom": 9,
-        "height": "500px",
+        "height": "300px",
         "center": {
-          "lat": 39.7977608,
-          "lng": -2.696415
+          "lat": 39.706152,
+          "lng": 2.7907217
         }
       },
       "pathComponentCords": [
-        { "lat": 39.5455483, "lng": -2.3911636 },
-        { "lat": 39.5790711, "lng": -2.3518347 },
-        { "lat": 39.6535103, "lng": -2.4810336 },
-        { "lat": 39.6692406, "lng": -2.5775622 },
-        { "lat": 39.7108464, "lng": -2.6230264 },
-        { "lat": 39.7477361, "lng": -2.6483431 },
-        { "lat": 39.7663047, "lng": -2.7150539 },
-        { "lat": 39.7687419, "lng": -2.8191486 },
-        { "lat": 39.8213081, "lng": -2.88451 },
-        { "lat": 39.9080131, "lng": -3.0827842 }
+        { "lat": 39.5455483, "lng": 2.3911636 },
+        { "lat": 39.5790711, "lng": 2.3518347 },
+        { "lat": 39.6535103, "lng": 2.4810336 },
+        { "lat": 39.6692406, "lng": 2.5775622 },
+        { "lat": 39.7108464, "lng": 2.6230264 },
+        { "lat": 39.7477361, "lng": 2.6483431 },
+        { "lat": 39.7663047, "lng": 2.7150539 },
+        { "lat": 39.7687419, "lng": 2.8191486 },
+        { "lat": 39.8213081, "lng": 2.88451 },
+        { "lat": 39.9080131, "lng": 3.0827842 }
       ],
       "markerlayerComponentPoints": [
         {
           "title": "Etapa: Port d'Andratx",
           "lat": 39.5455483,
-          "lng": -2.3911636,
+          "lng": 2.3911636,
           "description": {
             "number": 1,
             "name": "Port d'Andratx – Sant Elm",
@@ -388,7 +388,7 @@
         {
           "title": "Sant Elm",
           "lat": 39.5790711,
-          "lng": -2.3518347,
+          "lng": 2.3518347,
           "description": {
             "number": 2,
             "name": "Sant Elm – Estellencs",
@@ -400,7 +400,7 @@
         {
           "title": "Estellencs",
           "lat": 39.6535103,
-          "lng": -2.4810336,
+          "lng": 2.4810336,
           "description": {
             "number": 3,
             "name": "Estellencs – Esporles",
@@ -412,7 +412,7 @@
         {
           "title": "Esporles",
           "lat": 39.6692406,
-          "lng": -2.5775622,
+          "lng": 2.5775622,
           "description": {
             "number": 4,
             "name": "Esporles – Valldemossa",
@@ -424,7 +424,7 @@
         {
           "title": "Valldemossa",
           "lat": 39.7108464,
-          "lng": -2.6230264,
+          "lng": 2.6230264,
           "description": {
             "number": 5,
             "name": "Valldemossa – Deià",
@@ -436,7 +436,7 @@
         {
           "title": "Deià",
           "lat": 39.7477361,
-          "lng": -2.6483431,
+          "lng": 2.6483431,
           "description": {
             "number": 6,
             "name": "Deià – Sóller",
@@ -448,7 +448,7 @@
         {
           "title": "Sóller",
           "lat": 39.7663047,
-          "lng": -2.7150539,
+          "lng": 2.7150539,
           "description": {
             "number": 7,
             "name": "Sóller – Tossals Verds",
@@ -460,7 +460,7 @@
         {
           "title": "Tossals Verds",
           "lat": 39.7687419,
-          "lng": -2.8191486,
+          "lng": 2.8191486,
           "description": {
             "number": 8,
             "name": "Tossals Verds – Lluc",
@@ -472,7 +472,7 @@
         {
           "title": "Lluc",
           "lat": 39.8213081,
-          "lng": -2.88451,
+          "lng": 2.88451,
           "description": {
             "number": 9,
             "name": "Lluc – Port de Pollença",
@@ -484,7 +484,7 @@
         {
           "title": "Port de Pollença",
           "lat": 39.9080131,
-          "lng": -3.0827842,
+          "lng": 3.0827842,
           "description": {
             "description": "Vítejte na oficiálním konci trasy!"
           }
