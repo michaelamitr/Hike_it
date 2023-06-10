@@ -16,32 +16,32 @@ export const Contacts = () => {
           </p>
           <div className="person-contact">
             <div className="email">
-              <span className="email-icon"></span>
               <a href="mailto:misa.trckova.mt@gmail.com" className="email-link">
+                <span className="email-icon"></span>
                 misa.trckova.mt@gmail.com
               </a>
             </div>
             <div className="github">
-              <span className="github-icon"></span>
               <a href="https://github.com/michaelamitr" className="github-link">
+                <span className="github-icon"></span>
                 michaelamitr
               </a>
             </div>
             <div className="linkedin">
-              <span className="linkedin-icon"></span>
               <a
                 href="https://www.linkedin.com/in/michaela-tr%C4%8Dkov%C3%A1-49a739239/"
-                className="email-link"
+                className="linkedin-link"
               >
+                <span className="linkedin-icon"></span>
                 Michaela Trčková
               </a>
             </div>
             <div className="instagram">
-              <span className="instagram-icon"></span>
               <a
                 href="https://instagram.com/mihaela_na_uteku?igshid=OGQ5ZDc2ODk2ZA"
-                className="email-link"
+                className="instagram-link"
               >
+                <span className="instagram-icon"></span>
                 @mihaela_na_uteku
               </a>
             </div>
@@ -65,23 +65,23 @@ export const Contacts = () => {
           </p>
           <div className="person-contact">
             <div className="email">
-              <span className="email-icon"></span>
               <a href="mailto:havranova.i@seznam.cz" className="email-link">
+                <span className="email-icon"></span>
                 havranova.i@seznam.cz
               </a>
             </div>
             <div className="github">
-              <span className="github-icon"></span>
               <a href="https://github.com/havraiv" className="github-link">
+                <span className="github-icon"></span>
                 havraiv
               </a>
             </div>
             <div className="linkedin">
-              <span className="linkedin-icon"></span>
               <a
                 href="https://www.linkedin.com/in/iva-havranov%C3%A1-14bab025b/"
-                className="email-link"
+                className="linkedin-link"
               >
+                <span className="linkedin-icon"></span>
                 Iva Havranová
               </a>
             </div>
