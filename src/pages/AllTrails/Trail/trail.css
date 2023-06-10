@@ -121,6 +121,12 @@
   margin: 2rem
 }
 
+.stages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media (min-width: 580px) {
   .trail__page {
     width: 80vw;
