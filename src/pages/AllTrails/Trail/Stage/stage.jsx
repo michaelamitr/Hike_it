@@ -11,8 +11,8 @@ export const Stage = ({ number, name, distance, duration, description }) => {
         </h1>
         <div className="stage__cross">{cross}</div>
       </div>
-      <p>Vzdálenost: {distance}</p>
-      <p>Trvání: {duration}</p>
+      <p>Vzdálenost: {distance} km</p>
+      <p>Trvání: {duration} h</p>
       <p>{description}</p>
     </div>
   );

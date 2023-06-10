@@ -1,7 +1,6 @@
 .heading__container {
   height: 80px;
   background-size: cover;
-  margin: 1rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,12 +25,6 @@
   }
 }
 
-@media (min-width: 1450px) {
-  .container {
-    display: none;
-  }
-
-  .title {
-    width: 50%;
-  }
+.heading__title {
+  width: 50%;
 }

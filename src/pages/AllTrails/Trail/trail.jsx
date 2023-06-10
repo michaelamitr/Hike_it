@@ -2,8 +2,12 @@ import React from 'react';
 import './trail.css';
 import { Checkbox } from './Checkbox/checkbox';
 import { Stage } from './Stage/stage';
+import { useParams } from 'react-router-dom';
+import data from '../../../trails.json';
 
 export const Trail = () => {
+  const { trailId } = useParams();
+  const trailData = data.find((trail) => trail.id === trailId);
   return (
     <section id="trail">
       <div className="trail__banner">

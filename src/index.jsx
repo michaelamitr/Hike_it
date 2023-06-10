@@ -32,23 +32,23 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: 'main-page',
+        path: 'hlavni-strana',
         element: <MainPage />,
       },
       {
-        path: 'all-trails',
+        path: 'vsechny-trasy',
         element: <AllTrails />,
       },
       {
-        path: 'humans-and-nature',
+        path: 'lide-a-priroda',
         element: <HumansAndNature />,
       },
       {
-        path: 'contacts',
+        path: 'kontakty',
         element: <Contacts />,
       },
       {
-        path: 'trail',
+        path: ':trailId',
         element: <Trail />,
       },
     ],
