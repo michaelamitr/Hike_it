@@ -158,6 +158,198 @@
       "23": "img/FishTrail/23",
       "24": "img/FishTrail/24",
       "25": "img/FishTrail/25"
+    },
+    "map-data": {
+      "map-component-data": {
+        "zoom": 9,
+        "height": "500px",
+        "center": {
+          "lat": 37.4981131,
+          "lng": -8.7933814
+        }
+      },
+      "path-component-cords": [
+        { "lat": 37.9198589, "lng": -8.8048886 },
+        { "lat": 37.8517286, "lng": -8.7918411 },
+        { "lat": 37.7252803, "lng": -8.7822867 },
+        { "lat": 37.6529008, "lng": -8.7927678 },
+        { "lat": 37.5257036, "lng": -8.7848414 },
+        { "lat": 37.4332253, "lng": -8.7927678 },
+        { "lat": 37.315155, "lng": -8.8040533 },
+        { "lat": 37.2953244, "lng": -8.864615 },
+        { "lat": 37.1840453, "lng": -8.8949661 },
+        { "lat": 37.0831664, "lng": -8.9096544 },
+        { "lat": 37.0078286, "lng": -8.9419242 },
+        { "lat": 37.0659831, "lng": -8.8249161 },
+        { "lat": 37.0866456, "lng": -8.7313753 },
+        { "lat": 37.1027964, "lng": -8.6728689 }
+      ],
+      "markerlayer-component-points": [
+        {
+          "title": "Praia de São Torpes",
+          "lat": 37.9198589,
+          "lng": -8.8048886,
+          "description": {
+            "number": 1,
+            "name": "Praia de São Torpes – Porto Covo",
+            "distance": "9,7",
+            "duration": "2:27",
+            "description": "Krátký nenáročný úsek, který Vás vyvede z města Sines, které má průmyslovější charakter, vstříc nádherné přírodě podél Atlantiku. Po cestě jsou ze začátku přístupy na pláže. Později půjdete i okolo restaurace."
+          }
+        },
+        {
+          "title": "Porto Covo",
+          "lat": 37.8517286,
+          "lng": -8.7918411,
+          "description": {
+            "number": 2,
+            "name": "Porto Covo – Vila Nova de Milfontes",
+            "distance": "19,4",
+            "duration": "5:10",
+            "description": "Tato část trasy se obecně považuje za jednu z nejkrásnějších. Za sebe však mohu říct, že každá etapa je jedinečná, má něco do sebe a stojí za to. Dechberoucí útesy a pláže na vás už čekají. "
+          }
+        },
+        {
+          "title": "Vila Nova de Milfontes",
+          "lat": 37.7252803,
+          "lng": -8.7822867,
+          "description": {
+            "number": 3,
+            "name": "Vila Nova de Milfontes – Almograve",
+            "distance": "9,7",
+            "duration": "2:27",
+            "description": "Mimo zimní měsíce si můžete cestu přes most z Vila Nova de Milfontes směrem na Almograve zkrátit přívozem. A až se dostanete na druhou stranu, můžete si dát něco na zub v místní příjemné restauraci, jak jinak než s výhledem na moře."
+          }
+        },
+        {
+          "title": "Almograve",
+          "lat": 37.6529008,
+          "lng": -8.7927678,
+          "description": {
+            "number": 4,
+            "name": "Almograve – Zambujeira do Mar",
+            "distance": "21,5",
+            "duration": "5:50",
+            "description": "Nechte se pohltit výhledem na dechberoucí útesy a potěšte se pohledem na hnízdící čápi. Pokud budete mít štěstí a bude velký odliv, podaří se vám z pláže Praia de Nossa Senhora dostat na další dvě pláže, které jsou za přílivu zcela zaplavené oceánem."
+          }
+        },
+        {
+          "title": "Zambujeira do Mar",
+          "lat": 37.5257036,
+          "lng": -8.7848414,
+          "description": {
+            "number": 5,
+            "name": "Zambujeira do Mar – Odeceixe",
+            "distance": "18,9",
+            "duration": "5:29",
+            "description": "Nesmíte vynechat pláž Praia dos Alteirinhos, neboli jak by řekla Michaela, její pláž. Pokud budete mít štěstí a bude zrovna odliv, podaří se vám nahlédnout do útesových jeskyněk. Jakmile dorazíte do Azenha do Mar, dát si něco na zub v malé restauraci Café Palhinhas s úchvatným výhledem na moře se opravdu vyplatí."
+          }
+        },
+        {
+          "title": "Odeceixe",
+          "lat": 37.4332253,
+          "lng": -8.7927678,
+          "description": {
+            "number": 6,
+            "name": "Odeceixe – Aljezur",
+            "distance": "22,6",
+            "duration": "5:58",
+            "description": "Pláže a útesy se nikdy neomrzí, oceán má své kouzlo. V odeceixe se vyplatí podívat se nahoru na kopec k větrnému mlýnu. "
+          }
+        },
+        {
+          "title": "Aljezur",
+          "lat": 37.315155,
+          "lng": -8.8040533,
+          "description": {
+            "number": 7,
+            "name": "Aljezur – Arrifana",
+            "distance": "17,1",
+            "duration": "4:46",
+            "description": "Arrifana je asi nejopuštěnější místo ze všech průchozích bodů trasy. Je to však velmi populární destinace pro surfaře, takže se nemusíte bát, že tu budete úplně sami. Přímo podél trasy se však nenachází žádný obchod, tak je lepší s tím počítat."
+          }
+        },
+        {
+          "title": "Arrifana",
+          "lat": 37.2953244,
+          "lng": -8.864615,
+          "description": {
+            "number": 8,
+            "name": "Arrifana – Carrapateira",
+            "distance": "19,5",
+            "duration": "5:12",
+            "description": "Občas vás v této řekněme druhé půlce treku čeká i cesta ne přímo podél útesů, ale i vesničky, pole a lesy ve mnitrození jsou okouzlující. Carrapateira je roztomilé místo."
+          }
+        },
+        {
+          "title": "Carrapateira",
+          "lat": 37.1840453,
+          "lng": -8.8949661,
+          "description": {
+            "number": 9,
+            "name": "Carrapateira – Vila do Bispo",
+            "distance": "15,3",
+            "duration": "4:18",
+            "description": "Začnete stáčet více do vnitrozemí, užijte si klid lesů a portugalského venkova. Dost možná potkáte ovečky se zvonci na krku. Pozdravujte je."
+          }
+        },
+        {
+          "title": "Vila do Bispo",
+          "lat": 37.0831664,
+          "lng": -8.9096544,
+          "description": {
+            "number": 10,
+            "name": "Vila do Bispo – Sagres",
+            "distance": "20,2",
+            "duration": "5:18",
+            "description": "Sagres je proslulá díky keramice a nepřekvapivě surfování. Udělejte si zastávku na Farol do Cabo de São Vicente, nejzazší jihozápadní výběžek evropského kontinentu a výchozí bod Evropské dálkové trasy E9."
+          }
+        },
+        {
+          "title": "Sagres",
+          "lat": 37.0078286,
+          "lng": -8.9419242,
+          "description": {
+            "number": 11,
+            "name": "Sagres – Salema",
+            "distance": "19,5",
+            "duration": "5:30",
+            "description": "Odpočiňte si třeba na Praia do Zavial, kde narazíte i na příjemnou restauraci. Nebo na útulný lesík přímo za pláží, ve kterém se dá nouzově přenocovat."
+          }
+        },
+        {
+          "title": "Salema",
+          "lat": 37.0659831,
+          "lng": -8.8249161,
+          "description": {
+            "number": 12,
+            "name": "Salema – Luz",
+            "distance": "11,5",
+            "duration": "3:24",
+            "description": "Už teď se vám po Rybářské stezce stýská, že? Ale nezoufejte, kdykoliv se sem můžete vrátit, přeci jen, stezka se v čase mění. Zůstává stále krásná. Potkáte však různé druhy květů, různé lidi a třeba poznáte i novou část svého já. V Luz si pak nezapomeňte dopřát zasloužený odpočinek v kavárně Bombordo."
+          }
+        },
+        {
+          "title": "Luz",
+          "lat": 37.0866456,
+          "lng": -8.7313753,
+          "description": {
+            "number": 13,
+            "name": " Luz – Lagos",
+            "distance": "10,7",
+            "duration": "3:0",
+            "description": "Kochejte se, výhledy jako z obrázku vás čekají i dnes. Těšit se můžete i na skalní brány. Vychutnejte si oceán a místní přírodu naplno."
+          }
+        },
+        {
+          "title": "Lagos",
+          "lat": 37.1027964,
+          "lng": -8.6728689,
+          "description": {
+            "description": "Vítejte na oficiálním konci trasy!"
+          }
+        }
+      ]
     }
   },
   {
