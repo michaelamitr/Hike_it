@@ -1,13 +1,15 @@
 import React from 'react';
 import { Heading } from '../Heading/heading';
 import { TrailMap } from '../Map/trailmap';
+import { Link } from 'react-router-dom';
 import './trailitem.css';
 
 export const TrailItem = ({ trail }) => {
-  console.log(trail);
   return (
     <>
-      <Heading title={trail.general.name} url={trail.bannerImage} />
+      <Link to={`${trail.id}`}>
+        <Heading title={trail.general.name} url={trail.bannerImage} />
+      </Link>
       <div className="trail-item-map-container">
         <TrailMap
           key={trail.id}
