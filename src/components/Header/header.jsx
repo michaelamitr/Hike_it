@@ -29,17 +29,17 @@ export const Header = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/all-trails" onClick={toggleMenu}>
+            <NavLink to="/vsechny-trasy" onClick={toggleMenu}>
               Všechny trasy
             </NavLink>
           </li>
           <li>
-            <NavLink to="/humans-and-nature" onClick={toggleMenu}>
+            <NavLink to="/lide-a-priroda" onClick={toggleMenu}>
               Lidé & příroda
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contacts" onClick={toggleMenu}>
+            <NavLink to="/kontakty" onClick={toggleMenu}>
               Kontakty
             </NavLink>
           </li>
@@ -51,13 +51,13 @@ export const Header = () => {
             <NavLink to="/">Domů</NavLink>
           </li>
           <li>
-            <NavLink to="/all-trails">Všechny trasy</NavLink>
+            <NavLink to="/vsechny-trasy">Všechny trasy</NavLink>
           </li>
           <li>
-            <NavLink to="/humans-and-nature">Lidé & příroda</NavLink>
+            <NavLink to="/lide-a-priroda">Lidé & příroda</NavLink>
           </li>
           <li>
-            <NavLink to="/contacts">Kontakty</NavLink>
+            <NavLink to="/kontakty">Kontakty</NavLink>
           </li>
         </ul>
       </div>

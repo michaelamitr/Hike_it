@@ -1,5 +1,6 @@
 [
   {
+    "id": "rybarska-stezka",
     "banner-image": "img/FishTrail/intro-fish.jpg",
     "section-images": {
       "1": "img/FishTrail/25",
@@ -160,6 +161,7 @@
     }
   },
   {
+    "id": "gr221",
     "banner-image": "img/GR221/intro-gr221.jpg",
     "section-images": {
       "1": "img/GR221/25",
