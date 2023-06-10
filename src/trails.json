@@ -98,10 +98,10 @@
         "description": "Kochejte se, výhledy jako z obrázku vás čekají i dnes. Těšit se můžete i na skalní brány. Vychutnejte si oceán a místní přírodu naplno."
       }
     },
-    "what-to-pack": {
-      "start-text": "Když se chystáte na Rybářskou stezku v Portugalsku, je důležité vědět, co si s sebou zabalit do batohu. Vzhledem k tomu, že Portugalsko má teplé a slunečné počasí po většinu roku, budete potřebovat zejména lehké a pohodlné oblečení, ale také vybavení pro případný déšť a vítr. Zde je seznam věcí, které byste neměli zapomenout.",
+    "whatToPack": {
+      "startText": "Když se chystáte na Rybářskou stezku v Portugalsku, je důležité vědět, co si s sebou zabalit do batohu. Vzhledem k tomu, že Portugalsko má teplé a slunečné počasí po většinu roku, budete potřebovat zejména lehké a pohodlné oblečení, ale také vybavení pro případný déšť a vítr. Zde je seznam věcí, které byste neměli zapomenout.",
       "categories": {
-        "1": [
+        "clothes": [
           "Lehká a pohodlná trička s krátkým a dlouhým rukávem",
           "Krátké a dlouhé turistické kalhoty",
           "Lehká bunda nebo mikina na ochranu před větrem a deštěm",
@@ -109,11 +109,11 @@
           "Sluneční brýle",
           "Velmi doporučujeme spodní vrstvy z vlny merino, oblečení dýchá, člověka zahřeje i dobře odvede pot a nezapáchá"
         ],
-        "2": [
+        "shoes": [
           "Pohodlné turistické boty s kvalitní podrážkou pro chůzi po skalnatém terénu a písku",
           "Sandály nebo jiná lehká obuv na použití při odpočinku na pláži nebo pro pobyt v ubytovacím zařízení"
         ],
-        "3": [
+        "otherClothes": [
           "Batoh na přenášení vašich věcí a potravin",
           "Hydratační vak nebo láhev na vodu",
           "Mapa pro orientaci",
@@ -123,13 +123,13 @@
           "Opalovací krém"
         ],
         "other": "Pokud se chystáte na Fishermen's Trail v zimních měsících, měli byste zvážit následující další vybavení:",
-        "4": [
+        "winterClothes": [
           "Teplé oblečení, jako jsou fleecové mikiny a bundy, ideální do chladu je péřová bunda, která krom zajištění mimořádného tepelného komfortu zároveň vyniká i svou lehkostí a skladností",
           "Nepromokavé oblečení na ochranu před deštěm a větrem",
           "Náhradní ponožky, případně tenké rukavice na ochranu před chladem"
         ]
       },
-      "end-text": "Pamatujte si, že méně je někdy více, a že není nutné si s sebou brát příliš mnoho věcí. Mějte na paměti, že každou věc, kterou si zabalíte, si rovněž ponesete na vašich zádech. A nakonec, nezapomeňte na pravidla chování v přírodě, abyste pomohli udržet krásy životního prostředí i pro další generace."
+      "endText": "Pamatujte si, že méně je někdy více, a že není nutné si s sebou brát příliš mnoho věcí. Mějte na paměti, že každou věc, kterou si zabalíte, si rovněž ponesete na vašich zádech. A nakonec, nezapomeňte na pravidla chování v přírodě, abyste pomohli udržet krásy životního prostředí i pro další generace."
     },
     "gallery": {
       "1": "/img/FishTrail/1.jpg",
@@ -426,10 +426,10 @@
         "description": "Poslední etapa vede z města Sóller do přístavu Port de Pollença. Tato část trasy nabízí malebné výhledy na horské masivy a moře."
       }
     },
-    "what-to-pack": {
-      "start-text": "Při balení na cestu GR221 se rozhodujte převážně podle počasí, vzhledem k tomu, v jaké části roku se rozhodnete jít. Při výběru oblečení je vhodné vše vrstvit, abyste případně mohli rychle přidat/sundat další kus oblečení.",
+    "whatToPack": {
+      "startText": "Při balení na cestu GR221 se rozhodujte převážně podle počasí, vzhledem k tomu, v jaké části roku se rozhodnete jít. Při výběru oblečení je vhodné vše vrstvit, abyste případně mohli rychle přidat/sundat další kus oblečení.",
       "categories": {
-        "1": [
+        "clothes": [
           "Termo nebo funkční spodní prádlo",
           "Funkční tričko s krátkým a dlouhým rukávem",
           "Funkční nepromokavé dlouhé kalhoty a funkční šortky (ideálně s odnímatelnými nohavicemi",
@@ -438,12 +438,12 @@
           "Pokrývku hlavy",
           "Sluneční brýle"
         ],
-        "2": [
+        "shoes": [
           "Turistická obuv s kvalitní podrážkou pro chůzi po skalnatém terénu. Doporučujeme vzít již prošlápnuté boty, na které jste zvyklí.",
           "Sandály nebo jiná lehká obuv na použití při odpočinku na pláži nebo pro pobyt v ubytovacím zařízení",
           "Funkční ponožky"
         ],
-        "3": [
+        "otherClothes": [
           "Základní hygienické potřeby - toaletní papír, vlhčené ubrousky, zubní kartáček a pasta, mýdlo nebo gel na mytí těla, malý ručník, deodorant, krém s vyšším faktorem SPF.",
           "Repelent proti hmyzu",
           "Sterilní obvazy a gázy různých velikostí",
@@ -452,13 +452,13 @@
           "Pinzeta a nůžky na obvazy – zde pozor na letištní kontrole, pokud letíte pouze s příručním zavazadlem"
         ],
         "other": "",
-        "4": [
+        "winterClothes": [
           "Lehký a prostorný batoh, kam se vše pohodlně vejde a nosí se vám příjemně",
           "Karimatka, spací pytel, stan/Plachta/hamaka, dle vlastního uvážení",
           "Jídlo a pití – jídlo na zvážení každého, pokud nechcete řešit jídlo na místě, přibalte i vařič, nůž, příbory, hrnce. Na vodu doporučujeme větší láhev"
         ]
       },
-      "end-text": "Pamatujte si, že méně je někdy více, a že není nutné si s sebou brát příliš mnoho věcí. Mějte na paměti, že každou věc, kterou si zabalíte, si rovněž ponesete na vašich zádech. Hodně záleží, v jaký měsíc se rozhodnete GR221 jít. A nakonec, nezapomeňte na pravidla chování v přírodě, abyste pomohli udržet krásy životního prostředí i pro další generace."
+      "endText": "Pamatujte si, že méně je někdy více, a že není nutné si s sebou brát příliš mnoho věcí. Mějte na paměti, že každou věc, kterou si zabalíte, si rovněž ponesete na vašich zádech. Hodně záleží, v jaký měsíc se rozhodnete GR221 jít. A nakonec, nezapomeňte na pravidla chování v přírodě, abyste pomohli udržet krásy životního prostředí i pro další generace."
     },
     "gallery": {
       "1": "/img/GR221/1.jpg",

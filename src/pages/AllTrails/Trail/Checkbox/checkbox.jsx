@@ -1,11 +1,12 @@
 import React from 'react';
 import './checkbox.css';
 
-export const Checkbox = () => {
+export const Checkbox = ({ item }) => {
   return (
     <>
       <input type="checkbox" />
-      <label htmlFor="">Tričko</label>
+      <label htmlFor="">{item}</label>
+      <br />
     </>
   );
 };
