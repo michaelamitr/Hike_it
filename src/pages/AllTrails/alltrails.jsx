@@ -8,7 +8,7 @@ export const AllTrails = () => {
     <section id="all-trails">
       <div className="all-trails-container">
         {data.map((trail) => {
-          return <TrailItem trail={trail} />;
+          return <TrailItem key={trail.id} trail={trail} />;
         })}
       </div>
     </section>

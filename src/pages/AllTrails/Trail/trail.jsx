@@ -9,7 +9,6 @@ import { TrailMap } from '../TrailMap/trailmap';
 export const Trail = () => {
   const { trailId } = useParams();
   const trailData = data.find((trail) => trail.id === trailId);
-  console.log(trailData);
   return (
     <section id="trail">
       <div

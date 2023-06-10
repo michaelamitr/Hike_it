@@ -3,7 +3,6 @@ import './packing.css';
 import { Checkbox } from '../Checkbox/checkbox';
 
 export const Packing = ({ packing }) => {
-  console.log(packing);
   return (
     <div className="packing__text">
       <p>{packing.startText}</p>
