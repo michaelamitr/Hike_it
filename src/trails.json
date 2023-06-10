@@ -356,187 +356,135 @@
         "zoom": 9,
         "height": "500px",
         "center": {
-          "lat": 37.4981131,
-          "lng": -8.7933814
+          "lat": 39.7977608,
+          "lng": -2.696415
         }
       },
       "pathComponentCords": [
-        { "lat": 37.9198589, "lng": -8.8048886 },
-        { "lat": 37.8517286, "lng": -8.7918411 },
-        { "lat": 37.7252803, "lng": -8.7822867 },
-        { "lat": 37.6529008, "lng": -8.7927678 },
-        { "lat": 37.5257036, "lng": -8.7848414 },
-        { "lat": 37.4332253, "lng": -8.7927678 },
-        { "lat": 37.315155, "lng": -8.8040533 },
-        { "lat": 37.2953244, "lng": -8.864615 },
-        { "lat": 37.1840453, "lng": -8.8949661 },
-        { "lat": 37.0831664, "lng": -8.9096544 },
-        { "lat": 37.0078286, "lng": -8.9419242 },
-        { "lat": 37.0659831, "lng": -8.8249161 },
-        { "lat": 37.0866456, "lng": -8.7313753 },
-        { "lat": 37.1027964, "lng": -8.6728689 }
+        { "lat": 39.5455483, "lng": -2.3911636 },
+        { "lat": 39.5790711, "lng": -2.3518347 },
+        { "lat": 39.6535103, "lng": -2.4810336 },
+        { "lat": 39.6692406, "lng": -2.5775622 },
+        { "lat": 39.7108464, "lng": -2.6230264 },
+        { "lat": 39.7477361, "lng": -2.6483431 },
+        { "lat": 39.7663047, "lng": -2.7150539 },
+        { "lat": 39.7687419, "lng": -2.8191486 },
+        { "lat": 39.8213081, "lng": -2.88451 },
+        { "lat": 39.9080131, "lng": -3.0827842 }
       ],
       "markerlayerComponentPoints": [
         {
-          "title": "Praia de São Torpes",
-          "lat": 37.9198589,
-          "lng": -8.8048886,
+          "title": "Etapa: Port d'Andratx",
+          "lat": 39.5455483,
+          "lng": -2.3911636,
           "description": {
             "number": 1,
-            "name": "Praia de São Torpes – Porto Covo",
-            "distance": "9,7",
-            "duration": "2:27",
-            "description": "Krátký nenáročný úsek, který Vás vyvede z města Sines, které má průmyslovější charakter, vstříc nádherné přírodě podél Atlantiku. Po cestě jsou ze začátku přístupy na pláže. Později půjdete i okolo restaurace."
+            "name": "Port d'Andratx – Sant Elm",
+            "distance": "11",
+            "duration": "3",
+            "description": "Začátek trasy je v přístavu Port d'Andratx, který se nachází na západním pobřeží Mallorcy. Tato etapa nabízí krásné výhledy na moře a skalnaté pobřeží. Končí v příjemném letovisku Sant Elm."
           }
         },
         {
-          "title": "Porto Covo",
-          "lat": 37.8517286,
-          "lng": -8.7918411,
+          "title": "Sant Elm",
+          "lat": 39.5790711,
+          "lng": -2.3518347,
           "description": {
             "number": 2,
-            "name": "Porto Covo – Vila Nova de Milfontes",
-            "distance": "19,4",
-            "duration": "5:10",
-            "description": "Tato část trasy se obecně považuje za jednu z nejkrásnějších. Za sebe však mohu říct, že každá etapa je jedinečná, má něco do sebe a stojí za to. Dechberoucí útesy a pláže na vás už čekají. "
+            "name": "Sant Elm – Estellencs",
+            "distance": "22",
+            "duration": "9",
+            "description": "Tato etapa pokračuje od Sant Elm přes kopce a údolí směrem k malebné vesnici Estellencs. Trasa nabízí panoramatické výhledy na moře a údolí, a také průchod olivovými háji."
           }
         },
         {
-          "title": "Vila Nova de Milfontes",
-          "lat": 37.7252803,
-          "lng": -8.7822867,
+          "title": "Estellencs",
+          "lat": 39.6535103,
+          "lng": -2.4810336,
           "description": {
             "number": 3,
-            "name": "Vila Nova de Milfontes – Almograve",
-            "distance": "9,7",
-            "duration": "2:27",
-            "description": "Mimo zimní měsíce si můžete cestu přes most z Vila Nova de Milfontes směrem na Almograve zkrátit přívozem. A až se dostanete na druhou stranu, můžete si dát něco na zub v místní příjemné restauraci, jak jinak než s výhledem na moře."
+            "name": "Estellencs – Esporles",
+            "distance": "18",
+            "duration": "6",
+            "description": "Třetí etapa pokračuje přes kopcovitý terén a údolí. Začíná ve vesnici Estellencs a končí v Esporles, které je malebnou vesnicí s typickou mallorskou architekturou."
           }
         },
         {
-          "title": "Almograve",
-          "lat": 37.6529008,
-          "lng": -8.7927678,
+          "title": "Esporles",
+          "lat": 39.6692406,
+          "lng": -2.5775622,
           "description": {
             "number": 4,
-            "name": "Almograve – Zambujeira do Mar",
-            "distance": "21,5",
-            "duration": "5:50",
-            "description": "Nechte se pohltit výhledem na dechberoucí útesy a potěšte se pohledem na hnízdící čápi. Pokud budete mít štěstí a bude velký odliv, podaří se vám z pláže Praia de Nossa Senhora dostat na další dvě pláže, které jsou za přílivu zcela zaplavené oceánem."
+            "name": "Esporles – Valldemossa",
+            "distance": "11",
+            "duration": "4",
+            "description": "Tato etapa vede z Esporles do Valldemossy. Cesta vede lesy a údolími, a nabízí nádherné výhledy na okolní hory a vesnice. Valldemossa je historické město s klášterem a malebnými uličkami."
           }
         },
         {
-          "title": "Zambujeira do Mar",
-          "lat": 37.5257036,
-          "lng": -8.7848414,
+          "title": "Valldemossa",
+          "lat": 39.7108464,
+          "lng": -2.6230264,
           "description": {
             "number": 5,
-            "name": "Zambujeira do Mar – Odeceixe",
-            "distance": "18,9",
-            "duration": "5:29",
-            "description": "Nesmíte vynechat pláž Praia dos Alteirinhos, neboli jak by řekla Michaela, její pláž. Pokud budete mít štěstí a bude zrovna odliv, podaří se vám nahlédnout do útesových jeskyněk. Jakmile dorazíte do Azenha do Mar, dát si něco na zub v malé restauraci Café Palhinhas s úchvatným výhledem na moře se opravdu vyplatí."
+            "name": "Valldemossa – Deià",
+            "distance": "10",
+            "duration": "3",
+            "description": "Pátá etapa pokračuje z Valldemossy do malebné vesnice Deià. Trasa vede úzkými cestami s výhledy na pobřeží a skalní útesy. Deià je známá pro svou uměleckou atmosféru a půvabné prostředí."
           }
         },
         {
-          "title": "Odeceixe",
-          "lat": 37.4332253,
-          "lng": -8.7927678,
+          "title": "Deià",
+          "lat": 39.7477361,
+          "lng": -2.6483431,
           "description": {
             "number": 6,
-            "name": "Odeceixe – Aljezur",
-            "distance": "22,6",
-            "duration": "5:58",
-            "description": "Pláže a útesy se nikdy neomrzí, oceán má své kouzlo. V odeceixe se vyplatí podívat se nahoru na kopec k větrnému mlýnu. "
+            "name": "Deià – Sóller",
+            "distance": "10",
+            "duration": "4",
+            "description": "Tato etapa začíná v Deià a vede přes skalnaté terény a lesy směrem k malebnému městu Sóller. Trasa nabízí úchvatné výhledy na horu Puig Major, nejvyšší horu Mallorcy."
           }
         },
         {
-          "title": "Aljezur",
-          "lat": 37.315155,
-          "lng": -8.8040533,
+          "title": "Sóller",
+          "lat": 39.7663047,
+          "lng": -2.7150539,
           "description": {
             "number": 7,
-            "name": "Aljezur – Arrifana",
-            "distance": "17,1",
-            "duration": "4:46",
-            "description": "Arrifana je asi nejopuštěnější místo ze všech průchozích bodů trasy. Je to však velmi populární destinace pro surfaře, takže se nemusíte bát, že tu budete úplně sami. Přímo podél trasy se však nenachází žádný obchod, tak je lepší s tím počítat."
+            "name": "Sóller – Tossals Verds",
+            "distance": "15",
+            "duration": "6",
+            "description": "Relativně náročný úsek trasy, který se line krásnými nejen olivovými háji a dovede Vás až k malebným jezerům. Pokud nestačíte dojít až do vesnice Lluc, doporučuji přenocovat v ubytovně Els Tossals Verds."
           }
         },
         {
-          "title": "Arrifana",
-          "lat": 37.2953244,
-          "lng": -8.864615,
+          "title": "Tossals Verds",
+          "lat": 39.7687419,
+          "lng": -2.8191486,
           "description": {
             "number": 8,
-            "name": "Arrifana – Carrapateira",
-            "distance": "19,5",
-            "duration": "5:12",
-            "description": "Občas vás v této řekněme druhé půlce treku čeká i cesta ne přímo podél útesů, ale i vesničky, pole a lesy ve mnitrození jsou okouzlující. Carrapateira je roztomilé místo."
+            "name": "Tossals Verds – Lluc",
+            "distance": "14",
+            "duration": "6",
+            "description": "Kochejte se krásným výhledem na okolní krajinu a tešte se na uklidňující procházku klášterem v Lluc. Je také možné si zde doplnit tekutiny – na to nezapomínejte. 🙂"
           }
         },
         {
-          "title": "Carrapateira",
-          "lat": 37.1840453,
-          "lng": -8.8949661,
+          "title": "Lluc",
+          "lat": 39.8213081,
+          "lng": -2.88451,
           "description": {
             "number": 9,
-            "name": "Carrapateira – Vila do Bispo",
-            "distance": "15,3",
-            "duration": "4:18",
-            "description": "Začnete stáčet více do vnitrozemí, užijte si klid lesů a portugalského venkova. Dost možná potkáte ovečky se zvonci na krku. Pozdravujte je."
+            "name": "Lluc – Port de Pollença",
+            "distance": "22",
+            "duration": "7",
+            "description": "Poslední etapa vede z města Lluc do přístavu Port de Pollença. Tato část trasy nabízí malebné výhledy na horské masivy a moře."
           }
         },
         {
-          "title": "Vila do Bispo",
-          "lat": 37.0831664,
-          "lng": -8.9096544,
-          "description": {
-            "number": 10,
-            "name": "Vila do Bispo – Sagres",
-            "distance": "20,2",
-            "duration": "5:18",
-            "description": "Sagres je proslulá díky keramice a nepřekvapivě surfování. Udělejte si zastávku na Farol do Cabo de São Vicente, nejzazší jihozápadní výběžek evropského kontinentu a výchozí bod Evropské dálkové trasy E9."
-          }
-        },
-        {
-          "title": "Sagres",
-          "lat": 37.0078286,
-          "lng": -8.9419242,
-          "description": {
-            "number": 11,
-            "name": "Sagres – Salema",
-            "distance": "19,5",
-            "duration": "5:30",
-            "description": "Odpočiňte si třeba na Praia do Zavial, kde narazíte i na příjemnou restauraci. Nebo na útulný lesík přímo za pláží, ve kterém se dá nouzově přenocovat."
-          }
-        },
-        {
-          "title": "Salema",
-          "lat": 37.0659831,
-          "lng": -8.8249161,
-          "description": {
-            "number": 12,
-            "name": "Salema – Luz",
-            "distance": "11,5",
-            "duration": "3:24",
-            "description": "Už teď se vám po Rybářské stezce stýská, že? Ale nezoufejte, kdykoliv se sem můžete vrátit, přeci jen, stezka se v čase mění. Zůstává stále krásná. Potkáte však různé druhy květů, různé lidi a třeba poznáte i novou část svého já. V Luz si pak nezapomeňte dopřát zasloužený odpočinek v kavárně Bombordo."
-          }
-        },
-        {
-          "title": "Luz",
-          "lat": 37.0866456,
-          "lng": -8.7313753,
-          "description": {
-            "number": 13,
-            "name": " Luz – Lagos",
-            "distance": "10,7",
-            "duration": "3:0",
-            "description": "Kochejte se, výhledy jako z obrázku vás čekají i dnes. Těšit se můžete i na skalní brány. Vychutnejte si oceán a místní přírodu naplno."
-          }
-        },
-        {
-          "title": "Lagos",
-          "lat": 37.1027964,
-          "lng": -8.6728689,
+          "title": "Port de Pollença",
+          "lat": 39.9080131,
+          "lng": -3.0827842,
           "description": {
             "description": "Vítejte na oficiálním konci trasy!"
           }
