@@ -232,7 +232,40 @@
         "description": "Poslední etapa vede z města Sóller do přístavu Port de Pollença. Tato část trasy nabízí malebné výhledy na horské masivy a moře."
       }
     },
-    "what-to-pack": "DODĚLÁME",
+    "what-to-pack": {
+      "start-text": "Při balení na cestu GR221 se rozhodujte převážně podle počasí, vzhledem k tomu, v jaké části roku se rozhodnete jít. Při výběru oblečení je vhodné vše vrstvit, abyste případně mohli rychle přidat/sundat další kus oblečení.",
+      "categories": {
+        "1": [
+          "Termo nebo funkční spodní prádlo",
+          "Funkční tričko s krátkým a dlouhým rukávem",
+          "Funkční nepromokavé dlouhé kalhoty a funkční šortky (ideálně s odnímatelnými nohavicemi",
+          "Nepromokavou bundu",
+          "Funkční svetr",
+          "Pokrývku hlavy",
+          "Sluneční brýle"
+        ],
+        "2": [
+          "Turistická obuv s kvalitní podrážkou pro chůzi po skalnatém terénu. Doporučujeme vzít již prošlápnuté boty, na které jste zvyklí.",
+          "Sandály nebo jiná lehká obuv na použití při odpočinku na pláži nebo pro pobyt v ubytovacím zařízení",
+          "Funkční ponožky"
+        ],
+        "3": [
+          "Základní hygienické potřeby - toaletní papír, vlhčené ubrousky, zubní kartáček a pasta, mýdlo nebo gel na mytí těla, malý ručník, deodorant, krém s vyšším faktorem SPF.",
+          "Repelent proti hmyzu",
+          "Sterilní obvazy a gázy různých velikostí",
+          "Náplasti a náplasti na puchýře",
+          "Dezinfekční prostředek (například alkoholové tampóny nebo jodový roztok)",
+          "Pinzeta a nůžky na obvazy – zde pozor na letištní kontrole, pokud letíte pouze s příručním zavazadlem"
+        ],
+        "other": "",
+        "4": [
+          "Lehký a prostorný batoh, kam se vše pohodlně vejde a nosí se vám příjemně",
+          "Karimatka, spací pytel, stan/Plachta/hamaka, dle vlastního uvážení",
+          "Jídlo a pití – jídlo na zvážení každého, pokud nechcete řešit jídlo na místě, přibalte i vařič, nůž, příbory, hrnce. Na vodu doporučujeme větší láhev"
+        ]
+      },
+      "end-text": "Pamatujte si, že méně je někdy více, a že není nutné si s sebou brát příliš mnoho věcí. Mějte na paměti, že každou věc, kterou si zabalíte, si rovněž ponesete na vašich zádech. Hodně záleží, v jaký měsíc se rozhodnete GR221 jít. A nakonec, nezapomeňte na pravidla chování v přírodě, abyste pomohli udržet krásy životního prostředí i pro další generace."
+    },
     "gallery": {
       "1": "../public/img/GR221/1",
       "2": "../public/img/GR221/2",
