@@ -17,3 +17,7 @@
   flex-direction: column;
   align-items: center;
 }
+
+.all-trails-container a {
+  width: 100vw;
+}
