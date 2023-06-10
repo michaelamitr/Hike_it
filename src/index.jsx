@@ -48,7 +48,7 @@ const router = createBrowserRouter([
         element: <Contacts />,
       },
       {
-        path: ':trailId',
+        path: 'vsechny-trasy/:trailId',
         element: <Trail />,
       },
     ],
