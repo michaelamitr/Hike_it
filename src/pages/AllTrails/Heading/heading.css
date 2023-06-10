@@ -1,5 +1,5 @@
 .heading__container {
-  height: 100px;
+  height: 80px;
   background-size: cover;
   margin: 1rem 0;
   display: flex;
@@ -17,6 +17,13 @@
   opacity: 0.8;
   color: white;
   font-family: 'Caveat', sans-serif;
+}
+
+@media (max-width: 430px) {
+  .heading__title {
+    font-size: 1.5rem;
+    line-height: 1.9;
+  }
 }
 
 @media (min-width: 1450px) {

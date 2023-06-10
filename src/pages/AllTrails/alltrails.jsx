@@ -11,7 +11,7 @@ export const AllTrails = () => {
         <NavLink to="/trail">
           <h1 className="trail__title">Rybářská stezka</h1>
         </NavLink>
-        <Heading url={data[0]['banner-image']} title={data[0].general.name} />
+        {/* <Heading url={data[0]['banner-image']} title={data[0].general.name} /> jen pro kontrolu jestli funguje background-image*/}
       </div>
       <div className="trail__map">tady bude mapa</div>
     </section>
