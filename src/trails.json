@@ -1,8 +1,8 @@
 [
   {
     "id": "rybarska-stezka",
-    "banner-image": "img/FishTrail/intro-fish.jpg",
-    "section-images": {
+    "bannerImage": "img/FishTrail/intro-fish.jpg",
+    "sectionImages": {
       "1": "img/FishTrail/25",
       "2": "img/FishTrail/26",
       "3": "img/FishTrail/27",
@@ -162,8 +162,8 @@
   },
   {
     "id": "gr221",
-    "banner-image": "img/GR221/intro-gr221.jpg",
-    "section-images": {
+    "bannerImage": "img/GR221/intro-gr221.jpg",
+    "sectionImages": {
       "1": "img/GR221/25",
       "2": "img/GR221/26",
       "3": "img/GR221/27",

@@ -7,10 +7,8 @@ import { TrailItem } from './TrailItem/trailitem';
 export const AllTrails = () => {
   return (
     <section id="all-trails">
-      {data.map((trails) => {
-        return (
-          <TrailItem title={trails.general.name} url={trails['banner-image']} />
-        );
+      {data.map(({ general, bannerImage, id }) => {
+        return <TrailItem title={general.name} url={bannerImage} id={id} />;
       })}
     </section>
   );
