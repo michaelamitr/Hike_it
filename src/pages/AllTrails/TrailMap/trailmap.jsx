@@ -29,8 +29,6 @@ export const TrailMap = ({
         height={height}
         center={{ lat: centerlat, lng: centerlng }}
       >
-        <ZoomControl />
-        <CompassControl top={50} />
         <KeyboardControl />
         <MouseControl pan={true} wheel={true} zoom={true} />
         <SyncControl />
@@ -40,8 +38,7 @@ export const TrailMap = ({
               coords={{ lng: point.lng, lat: point.lat }}
               options={{ title: point.title }}
               card={{
-                header: point.title,
-                body: (
+                body: () => (
                   <Stage
                     number={point.description.number}
                     name={point.description.name}
@@ -50,11 +47,6 @@ export const TrailMap = ({
                     description={point.description.description}
                   />
                 ),
-                // footer: (coords) => (
-                //   <div className="card--footer">
-                //     Zeměpisná délka: {coords.lng}, zeměpisná šířka: {coords.lat}
-                //   </div>
-                // ),
               }}
               key={point.title}
             />

@@ -2,3 +2,9 @@
   width: 416px;
   margin: 20px;
 }
+
+.card {
+  position: absolute !important;
+  z-index: 999;
+  background-color: var(--backgroung-light-blue) !important;
+}
