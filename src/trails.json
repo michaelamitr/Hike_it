@@ -1,8 +1,8 @@
 [
   {
     "id": "rybarska-stezka",
-    "banner-image": "img/FishTrail/intro-fish.jpg",
-    "section-images": {
+    "bannerImage": "img/FishTrail/intro-fish.jpg",
+    "sectionImages": {
       "1": "img/FishTrail/25",
       "2": "img/FishTrail/26",
       "3": "img/FishTrail/27",
@@ -19,88 +19,8 @@
       "monthsToGo": [1, 2, 3, 4, 5, 9, 10, 11, 12]
     },
     "info": "<p>Rybářská stezka (Trilho dos Pescadores, Fishermen's Trail) se nachází na jihozápadním pobřeží Portugalska. Je to okouzlující trasa, která vás provede fascinujícím světem přírodních krás podél pobřeží Alentejo a Algarve, prochází napříč úchvatnými plážemi, skalnatými útesy a malebnými rybářskými vesničkami. Nabízí nezapomenutelné dobrodružství pro milovníky přírody, oceánu a pro ty, kteří hledají klid a odpočinek.</p><p>Trasa začíná ve vesnici Porto Covo a končí ve vesnici Lagos. Je možné ji absolvovat i v opačném směru, záleží po jaké ruce máte výhled na moře raději. 🙂 Oficiální start trasy je na pláži São Torpes, na kterou se lze dostat z městečka Sines.</p><p>Trasa každý den prochází menším městečkem, rybářskou vesnicí. Do každé se dá dopravit autobusem Z Lisabonu, Fara, nebo jiného většího města. Pro plánování přepravy v Portugalsku vřele doporučujeme následující stránky. Autobusy i vlaky jsou spolehlivé.<a href='https://rede-expressos.pt/en'>Rede Expressos – autobusy</a><a href='https://www.flixbus.cz/'>Flixbus – autobusy</a><a href='https://www.cp.pt/passageiros/en'>Combois de Portugal – vlaky</a></p><p>TIP: Jízdenka v Lisabonu, kterou si pořídíte v automatu, se dá nabíjet opakovaně, doporučujeme Vám si ji proto ponechat.</p><p>Trasu je možné absolvovat kdykoliv v roce. Nevhodné jsou pouze letní měsíce od června do září, kdy teploty mohou být velmi vysoké. Na trase prakticky není stín, budete se pohybovat hlavně po útesech a pláních s nízkými rostlinami.</p><p>Přímo na trase zdroje vody prakticky nejsou, a čerpat vodu z potoků které ústí do moře není vhodné. Tato voda je téměř na konci svého přírodního cyklu, vlévá se do moře a kdo ví čím vším si po cestě prošla. Ve vnitrozemí se nachází četné zemědělské objekty a voda z těchto zdrojů může obsahovat řadu nežádoucích látek.</p><p>Trasa každý den prochází civilizací, je proto možné si dokoupit potraviny, vodu i jiné nezbytnosti. Zároveň zde je i mnoho možností ubytování, od hostelů po hotely či Airbnb.</p><p>Zejména v hlavní sezóně, která je přibližně březen–květen + září–říjen je dobré si ubytování rezervovat klidně i více než 2 měsíce předem. Trasa je oblíbená a výhodná ubytování se rychle obsadí. Mimo tyto měsíce je atmosféra trasy celkově klidnější. Zároveň však v zimních měsících bývají mnohá ubytování a obchody zavřené. Vždycky se však najde místo kde můžete složit hlavu a doplnit zásoby.</p><p>Pokud si chcete při chůzi dopřát co největší komfort, je možné si nechat batohy přepravit z ubytování do ubytování v dalším průchozím bodu skrz službu <a href='https://www.vicentinatransfers.pt/'>Vicentina Transfers</a>.<p><p><a href='https://rotavicentina.com/'>Další užitečné informace o trase</a></p>",
-    "stages": {
-      "1": {
-        "name": "São Torpes – Porto Covo",
-        "distance": "9,7 km",
-        "duration": "2:27 h",
-        "description": "Krátký nenáročný úsek, který Vás vyvede z města Sines, které má průmyslovější charakter, vstříc nádherné přírodě podél Atlantiku. Po cestě jsou ze začátku přístupy na pláže. Později půjdete i okolo restaurace."
-      },
-      "2": {
-        "name": "Porto Covo – Vila Nova de Milfontes",
-        "distance": "19,4 km",
-        "duration": "5:10 h",
-        "description": "Tato část trasy se obecně považuje za jednu z nejkrásnějších. Za sebe však mohu říct, že každá etapa je jedinečná, má něco do sebe a stojí za to. Dechberoucí útesy a pláže na vás už čekají."
-      },
-      "3": {
-        "name": "Vila Nova de Milfontes – Almograve",
-        "distance": "9,7 km",
-        "duration": "2:27 h",
-        "description": "Mimo zimní měsíce si můžete cestu přes most z Vila Nova de Milfontes směrem na Almograve zkrátit přívozem. A až se dostanete na druhou stranu, můžete si dát něco na zub v místní příjemné restauraci, jak jinak než s výhledem na moře."
-      },
-      "4": {
-        "name": "Almograve – Zambujeira do Mar",
-        "distance": "21,5 km",
-        "duration": "5:50",
-        "description": "Nechte se pohltit výhledem na dechberoucí útesy a potěšte se pohledem na hnízdící čápi. Pokud budete mít štěstí a bude velký odliv, podaří se vám z pláže Praia de Nossa Senhora dostat na další dvě pláže, které jsou za přílivu zcela zaplavené oceánem."
-      },
-      "5": {
-        "name": "Zambujeira do Mar – Odeceixe",
-        "distance": "18,9 km",
-        "duration": "5:29 h",
-        "description": "Nesmíte vynechat pláž Praia dos Alteirinhos, neboli jak by řekla Michaela, její pláž. Pokud budete mít štěstí a bude zrovna odliv, podaří se vám nahlédnout do útesových jeskyněk. Jakmile dorazíte do Azenha do Mar, dát si něco na zub v malé restauraci Café Palhinhas s úchvatným výhledem na moře se opravdu vyplatí."
-      },
-      "6": {
-        "name": "Odeceixe – Aljezur",
-        "distance": "22,6 km",
-        "duration": "5:58 h",
-        "description": "Pláže a útesy se nikdy neomrzí, oceán má své kouzlo. V odeceixe se vyplatí podívat se nahoru na kopec k větrnému mlýnu."
-      },
-      "7": {
-        "name": "Aljezur – Arrifana",
-        "distance": "17,1 km",
-        "duration": "4:46 h",
-        "description": "Arrifana je asi nejopuštěnější místo ze všech průchozích bodů trasy. Je to však velmi populární destinace pro surfaře, takže se nemusíte bát, že tu budete úplně sami. Přímo podél trasy se však nenachází žádný obchod, tak je lepší s tím počítat."
-      },
-      "8": {
-        "name": "Arrifana – Carrapateira",
-        "distance": "19,5 km",
-        "duration": "5:12 h",
-        "description": "Občas vás v této řekněme druhé půlce treku čeká i cesta ne přímo podél útesů, ale i vesničky, pole a lesy ve mnitrození jsou okouzlující. Carrapateira je roztomilé místo."
-      },
-      "9": {
-        "name": "Carrapateira – Vila do Bispo",
-        "distance": "15,3 km",
-        "duration": "4:18 h",
-        "description": "Začnete stáčet více do vnitrozemí, užijte si klid lesů a portugalského venkova. Dost možná potkáte ovečky se zvonci na krku. Pozdravujte je."
-      },
-      "10": {
-        "name": "Vila do Bispo – Sagres",
-        "distance": "20,2 km",
-        "duration": "5:18 h",
-        "description": "Sagres je proslulá díky keramice a nepřekvapivě surfování. Udělejte si zastávku na Farol do Cabo de São Vicente, nejzazší jihozápadní výběžek evropského kontinentu a výchozí bod Evropské dálkové trasy E9."
-      },
-      "11": {
-        "name": "Sagres – Salema",
-        "distance": "19,5 km",
-        "duration": "5:30 h",
-        "description": "Odpočiňte si třeba na Praia do Zavial, kde narazíte i na příjemnou restauraci. Nebo na útulný lesík přímo za pláží, ve kterém se dá nouzově přenocovat."
-      },
-      "12": {
-        "name": "Salema – Luz",
-        "distance": "11,5 km",
-        "duration": "3:24 h",
-        "description": "Už teď se vám po Rybářské stezce stýská, že? Ale nezoufejte, kdykoliv se sem můžete vrátit, přeci jen, stezka se v čase mění. Zůstává stále krásná. Potkáte však různé druhy květů, různé lidi a třeba poznáte i novou část svého já. V Luz si pak nezapomeňte dopřát zasloužený odpočinek v kavárně Bombordo."
-      },
-      "13": {
-        "name": "Luz – Lagos",
-        "distance": "10,7 km",
-        "duration": "3:09 h",
-        "description": "Kochejte se, výhledy jako z obrázku vás čekají i dnes. Těšit se můžete i na skalní brány. Vychutnejte si oceán a místní přírodu naplno."
-      }
-    },
-    "what-to-pack": {
-      "start-text": "Když se chystáte na Rybářskou stezku v Portugalsku, je důležité vědět, co si s sebou zabalit do batohu. Vzhledem k tomu, že Portugalsko má teplé a slunečné počasí po většinu roku, budete potřebovat zejména lehké a pohodlné oblečení, ale také vybavení pro případný déšť a vítr. Zde je seznam věcí, které byste neměli zapomenout.",
+    "whatToPack": {
+      "startText": "Když se chystáte na Rybářskou stezku v Portugalsku, je důležité vědět, co si s sebou zabalit do batohu. Vzhledem k tomu, že Portugalsko má teplé a slunečné počasí po většinu roku, budete potřebovat zejména lehké a pohodlné oblečení, ale také vybavení pro případný déšť a vítr. Zde je seznam věcí, které byste neměli zapomenout.",
       "categories": {
         "1": [
           "Lehká a pohodlná trička s krátkým a dlouhým rukávem",
@@ -130,7 +50,7 @@
           "Náhradní ponožky, případně tenké rukavice na ochranu před chladem"
         ]
       },
-      "end-text": "Pamatujte si, že méně je někdy více, a že není nutné si s sebou brát příliš mnoho věcí. Mějte na paměti, že každou věc, kterou si zabalíte, si rovněž ponesete na vašich zádech. A nakonec, nezapomeňte na pravidla chování v přírodě, abyste pomohli udržet krásy životního prostředí i pro další generace."
+      "endText": "Pamatujte si, že méně je někdy více, a že není nutné si s sebou brát příliš mnoho věcí. Mějte na paměti, že každou věc, kterou si zabalíte, si rovněž ponesete na vašich zádech. A nakonec, nezapomeňte na pravidla chování v přírodě, abyste pomohli udržet krásy životního prostředí i pro další generace."
     },
     "gallery": {
       "1": "img/FishTrail/1",
@@ -159,8 +79,8 @@
       "24": "img/FishTrail/24",
       "25": "img/FishTrail/25"
     },
-    "map-data": {
-      "map-component-data": {
+    "mapData": {
+      "mapComponentData": {
         "zoom": 9,
         "height": "500px",
         "center": {
@@ -168,7 +88,7 @@
           "lng": -8.7933814
         }
       },
-      "path-component-cords": [
+      "pathComponentCords": [
         { "lat": 37.9198589, "lng": -8.8048886 },
         { "lat": 37.8517286, "lng": -8.7918411 },
         { "lat": 37.7252803, "lng": -8.7822867 },
@@ -184,7 +104,7 @@
         { "lat": 37.0866456, "lng": -8.7313753 },
         { "lat": 37.1027964, "lng": -8.6728689 }
       ],
-      "markerlayer-component-points": [
+      "markerlayerComponentPoints": [
         {
           "title": "Praia de São Torpes",
           "lat": 37.9198589,
@@ -372,62 +292,6 @@
       "monthsToGo": [3, 4, 5, 9, 10]
     },
     "info": "<p>GR221 se nachází na severozápadní části španělského ostrova Mallorca. Je také známá jako Ruta de Pedra en Sec neboli Suchá kamenná cesta. Tato trasa prochází horskými oblastmi Serra de Tramuntana, které je zapsáno na seznamu světového dědictví UNESCO, a nabízí nádherné výhledy na hory, údolí, olivové háje a rustikální vesnice. Během túry na GR221 můžeš očekávat dramatické scenérie, skalnaté vrcholy, útesy nad mořem a nádherné panoramatické pohledy na ostrov.</p><p>Trasa je rozdělena do devíti etap, které se liší délkou a obtížností. Každá etapa končí ve vesnicích, kde si můžeš odpočinout, najít ubytování a ochutnat místní kuchyni. Začátek trasy je v přístavu Port d'Andratx, který se nachází na západním pobřeží Mallorcy a končí v přístavu Port de Pollença. Některé z nejznámějších vesnic na trase jsou Estellencs, Valldemossa, Deià a Sóller.</p><p>GR221 není vyhrazena pouze pro zkušené pěší turisty, ale také pro milovníky přírody a dobrodružství. Je důležité být dobře připravený, s vhodnou výbavou, dostatkem vody a znalostí základních turistických dovedností. Co se týká vody, opravdu doporučujeme doplnit velké zásoby vždy, kdy je to možné. Voda je dostupná ve městech.</p><p>Trasu je možné absolvovat celoročně, ale doporučované jsou převážně jarní a podzimní měsíce. V létě (červenec – srpen) může být na Mallorce velmi horko, teploty mohou přesahovat 30 °C a přímé sluneční světlo je intenzivní. Tato období mohou být fyzicky náročnější kvůli vysokým teplotám, a proto je důležité mít dostatečné množství vody a chránit se před sluncem. V zimě (prosinec – únor) mohou být některé úseky trasy zasněžené nebo kluzké, ačkoli sníh na Mallorce není příliš častý jev. Teploty se pohybují kolem 10–15 °C, ale v horských oblastech mohou být nižší.</p><p>Během túry GR221 je dobré počítat s tím, že ubytování může být omezené a je vhodné ho rezervovat dopředu, zejména pokud se plánuje cestovat v hlavní sezóně nebo během víkendů. Doporučuje se rezervovat ubytování předem, aby se zajistilo, že budete mít místo k přenocování. Mnoho ubytovacích zařízení, jako jsou horské chaty, horské boudy nebo agroturistické hotely, nabízí omezenou kapacitu a mohou být rychle obsazené, zejména v hlavních turistických sezónách a vzhledem k tomu, že se GR221 stává čím dál častěji vyhledávaným dobrodružstvím.</p><p>Zajímavost: Na cestě GR221 existuje více variant, můžete si tedy vybrat, jaká je pro vás nejvhodnější. Vzhledem ke slušnému pokrytí autobusové dopravy po celém ostrově není problém se kdykoli dostat do cíle a trasu si tak naplánovat podle sebe.</p><p>Užitečné odkazy: <a href='https://www.tib.org/en/inici'>TIB – autobusy</a><a href='https://gr221.info/huts.htm'>Ubytování po trase a další užitečné informace</a></p>",
-    "stages": {
-      "1": {
-        "name": "Port d'Andratx – Sant Elm",
-        "distance": "11 km",
-        "duration": "3 h",
-        "description": "Začátek trasy je v přístavu Port d'Andratx, který se nachází na západním pobřeží Mallorcy. Tato etapa nabízí krásné výhledy na moře a skalnaté pobřeží. Končí v příjemném letovisku Sant Elm."
-      },
-      "2": {
-        "name": "Sant Elm – Estellencs",
-        "distance": "22 km",
-        "duration": "9 h",
-        "description": "Tato etapa pokračuje od Sant Elm přes kopce a údolí směrem k malebné vesnici Estellencs. Trasa nabízí panoramatické výhledy na moře a údolí, a také průchod olivovými háji."
-      },
-      "3": {
-        "name": "Estellencs – Esporles",
-        "distance": "18 km",
-        "duration": "6 h",
-        "description": "Třetí etapa pokračuje přes kopcovitý terén a údolí. Začíná ve vesnici Estellencs a končí v Esporles, které je malebnou vesnicí s typickou mallorskou architekturou."
-      },
-      "4": {
-        "name": "Esporles – Valldemossa",
-        "distance": "11 km",
-        "duration": "4 h",
-        "description": "Tato etapa vede z Esporles do Valldemossy. Cesta vede lesy a údolími, a nabízí nádherné výhledy na okolní hory a vesnice. Valldemossa je historické město s klášterem a malebnými uličkami."
-      },
-      "5": {
-        "name": "Valldemossa – Deià",
-        "distance": "10 km",
-        "duration": "3 h",
-        "description": "Pátá etapa pokračuje z Valldemossy do malebné vesnice Deià. Trasa vede úzkými cestami s výhledy na pobřeží a skalní útesy. Deià je známá pro svou uměleckou atmosféru a půvabné prostředí."
-      },
-      "6": {
-        "name": "Deià – Sóller",
-        "distance": "10 km",
-        "duration": "4 h",
-        "description": "Tato etapa začíná v Deià a vede přes skalnaté terény a lesy směrem k malebnému městu Sóller. Trasa nabízí úchvatné výhledy na horu Puig Major, nejvyšší horu Mallorcy."
-      },
-      "7": {
-        "name": "Sóller – Tossals Verds",
-        "distance": "15 km",
-        "duration": "6 h",
-        "description": "Relativně náročný úsek trasy, který se line krásnými nejen olivovými háji a dovede Vás až k malebným jezerům. Pokud nestačíte dojít až do vesnice Lluc, doporučuji přenocovat v ubytovně Els Tossals Verds."
-      },
-      "8": {
-        "name": "Tossals Verds – Lluc",
-        "distance": "14 km",
-        "duration": "6 h",
-        "description": "Kochejte se krásným výhledem na okolní krajinu a tešte se na uklidňující procházku klášterem v Lluc. Je také možné si zde doplnit tekutiny – na to nezapomínejte. 🙂"
-      },
-      "9": {
-        "name": "Lluc – Port de Pollença",
-        "distance": "22 km",
-        "duration": "7 h",
-        "description": "Poslední etapa vede z města Sóller do přístavu Port de Pollença. Tato část trasy nabízí malebné výhledy na horské masivy a moře."
-      }
-    },
     "what-to-pack": {
       "start-text": "Při balení na cestu GR221 se rozhodujte převážně podle počasí, vzhledem k tomu, v jaké části roku se rozhodnete jít. Při výběru oblečení je vhodné vše vrstvit, abyste případně mohli rychle přidat/sundat další kus oblečení.",
       "categories": {
@@ -488,6 +352,198 @@
       "23": "img/GR221/23",
       "24": "img/GR221/24",
       "25": "img/GR221/25"
+    },
+    "mapData": {
+      "mapComponentData": {
+        "zoom": 9,
+        "height": "500px",
+        "center": {
+          "lat": 37.4981131,
+          "lng": -8.7933814
+        }
+      },
+      "pathComponentCords": [
+        { "lat": 37.9198589, "lng": -8.8048886 },
+        { "lat": 37.8517286, "lng": -8.7918411 },
+        { "lat": 37.7252803, "lng": -8.7822867 },
+        { "lat": 37.6529008, "lng": -8.7927678 },
+        { "lat": 37.5257036, "lng": -8.7848414 },
+        { "lat": 37.4332253, "lng": -8.7927678 },
+        { "lat": 37.315155, "lng": -8.8040533 },
+        { "lat": 37.2953244, "lng": -8.864615 },
+        { "lat": 37.1840453, "lng": -8.8949661 },
+        { "lat": 37.0831664, "lng": -8.9096544 },
+        { "lat": 37.0078286, "lng": -8.9419242 },
+        { "lat": 37.0659831, "lng": -8.8249161 },
+        { "lat": 37.0866456, "lng": -8.7313753 },
+        { "lat": 37.1027964, "lng": -8.6728689 }
+      ],
+      "markerlayerComponentPoints": [
+        {
+          "title": "Praia de São Torpes",
+          "lat": 37.9198589,
+          "lng": -8.8048886,
+          "description": {
+            "number": 1,
+            "name": "Praia de São Torpes – Porto Covo",
+            "distance": "9,7",
+            "duration": "2:27",
+            "description": "Krátký nenáročný úsek, který Vás vyvede z města Sines, které má průmyslovější charakter, vstříc nádherné přírodě podél Atlantiku. Po cestě jsou ze začátku přístupy na pláže. Později půjdete i okolo restaurace."
+          }
+        },
+        {
+          "title": "Porto Covo",
+          "lat": 37.8517286,
+          "lng": -8.7918411,
+          "description": {
+            "number": 2,
+            "name": "Porto Covo – Vila Nova de Milfontes",
+            "distance": "19,4",
+            "duration": "5:10",
+            "description": "Tato část trasy se obecně považuje za jednu z nejkrásnějších. Za sebe však mohu říct, že každá etapa je jedinečná, má něco do sebe a stojí za to. Dechberoucí útesy a pláže na vás už čekají. "
+          }
+        },
+        {
+          "title": "Vila Nova de Milfontes",
+          "lat": 37.7252803,
+          "lng": -8.7822867,
+          "description": {
+            "number": 3,
+            "name": "Vila Nova de Milfontes – Almograve",
+            "distance": "9,7",
+            "duration": "2:27",
+            "description": "Mimo zimní měsíce si můžete cestu přes most z Vila Nova de Milfontes směrem na Almograve zkrátit přívozem. A až se dostanete na druhou stranu, můžete si dát něco na zub v místní příjemné restauraci, jak jinak než s výhledem na moře."
+          }
+        },
+        {
+          "title": "Almograve",
+          "lat": 37.6529008,
+          "lng": -8.7927678,
+          "description": {
+            "number": 4,
+            "name": "Almograve – Zambujeira do Mar",
+            "distance": "21,5",
+            "duration": "5:50",
+            "description": "Nechte se pohltit výhledem na dechberoucí útesy a potěšte se pohledem na hnízdící čápi. Pokud budete mít štěstí a bude velký odliv, podaří se vám z pláže Praia de Nossa Senhora dostat na další dvě pláže, které jsou za přílivu zcela zaplavené oceánem."
+          }
+        },
+        {
+          "title": "Zambujeira do Mar",
+          "lat": 37.5257036,
+          "lng": -8.7848414,
+          "description": {
+            "number": 5,
+            "name": "Zambujeira do Mar – Odeceixe",
+            "distance": "18,9",
+            "duration": "5:29",
+            "description": "Nesmíte vynechat pláž Praia dos Alteirinhos, neboli jak by řekla Michaela, její pláž. Pokud budete mít štěstí a bude zrovna odliv, podaří se vám nahlédnout do útesových jeskyněk. Jakmile dorazíte do Azenha do Mar, dát si něco na zub v malé restauraci Café Palhinhas s úchvatným výhledem na moře se opravdu vyplatí."
+          }
+        },
+        {
+          "title": "Odeceixe",
+          "lat": 37.4332253,
+          "lng": -8.7927678,
+          "description": {
+            "number": 6,
+            "name": "Odeceixe – Aljezur",
+            "distance": "22,6",
+            "duration": "5:58",
+            "description": "Pláže a útesy se nikdy neomrzí, oceán má své kouzlo. V odeceixe se vyplatí podívat se nahoru na kopec k větrnému mlýnu. "
+          }
+        },
+        {
+          "title": "Aljezur",
+          "lat": 37.315155,
+          "lng": -8.8040533,
+          "description": {
+            "number": 7,
+            "name": "Aljezur – Arrifana",
+            "distance": "17,1",
+            "duration": "4:46",
+            "description": "Arrifana je asi nejopuštěnější místo ze všech průchozích bodů trasy. Je to však velmi populární destinace pro surfaře, takže se nemusíte bát, že tu budete úplně sami. Přímo podél trasy se však nenachází žádný obchod, tak je lepší s tím počítat."
+          }
+        },
+        {
+          "title": "Arrifana",
+          "lat": 37.2953244,
+          "lng": -8.864615,
+          "description": {
+            "number": 8,
+            "name": "Arrifana – Carrapateira",
+            "distance": "19,5",
+            "duration": "5:12",
+            "description": "Občas vás v této řekněme druhé půlce treku čeká i cesta ne přímo podél útesů, ale i vesničky, pole a lesy ve mnitrození jsou okouzlující. Carrapateira je roztomilé místo."
+          }
+        },
+        {
+          "title": "Carrapateira",
+          "lat": 37.1840453,
+          "lng": -8.8949661,
+          "description": {
+            "number": 9,
+            "name": "Carrapateira – Vila do Bispo",
+            "distance": "15,3",
+            "duration": "4:18",
+            "description": "Začnete stáčet více do vnitrozemí, užijte si klid lesů a portugalského venkova. Dost možná potkáte ovečky se zvonci na krku. Pozdravujte je."
+          }
+        },
+        {
+          "title": "Vila do Bispo",
+          "lat": 37.0831664,
+          "lng": -8.9096544,
+          "description": {
+            "number": 10,
+            "name": "Vila do Bispo – Sagres",
+            "distance": "20,2",
+            "duration": "5:18",
+            "description": "Sagres je proslulá díky keramice a nepřekvapivě surfování. Udělejte si zastávku na Farol do Cabo de São Vicente, nejzazší jihozápadní výběžek evropského kontinentu a výchozí bod Evropské dálkové trasy E9."
+          }
+        },
+        {
+          "title": "Sagres",
+          "lat": 37.0078286,
+          "lng": -8.9419242,
+          "description": {
+            "number": 11,
+            "name": "Sagres – Salema",
+            "distance": "19,5",
+            "duration": "5:30",
+            "description": "Odpočiňte si třeba na Praia do Zavial, kde narazíte i na příjemnou restauraci. Nebo na útulný lesík přímo za pláží, ve kterém se dá nouzově přenocovat."
+          }
+        },
+        {
+          "title": "Salema",
+          "lat": 37.0659831,
+          "lng": -8.8249161,
+          "description": {
+            "number": 12,
+            "name": "Salema – Luz",
+            "distance": "11,5",
+            "duration": "3:24",
+            "description": "Už teď se vám po Rybářské stezce stýská, že? Ale nezoufejte, kdykoliv se sem můžete vrátit, přeci jen, stezka se v čase mění. Zůstává stále krásná. Potkáte však různé druhy květů, různé lidi a třeba poznáte i novou část svého já. V Luz si pak nezapomeňte dopřát zasloužený odpočinek v kavárně Bombordo."
+          }
+        },
+        {
+          "title": "Luz",
+          "lat": 37.0866456,
+          "lng": -8.7313753,
+          "description": {
+            "number": 13,
+            "name": " Luz – Lagos",
+            "distance": "10,7",
+            "duration": "3:0",
+            "description": "Kochejte se, výhledy jako z obrázku vás čekají i dnes. Těšit se můžete i na skalní brány. Vychutnejte si oceán a místní přírodu naplno."
+          }
+        },
+        {
+          "title": "Lagos",
+          "lat": 37.1027964,
+          "lng": -8.6728689,
+          "description": {
+            "description": "Vítejte na oficiálním konci trasy!"
+          }
+        }
+      ]
     }
   }
 ]

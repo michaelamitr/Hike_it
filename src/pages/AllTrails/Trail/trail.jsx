@@ -1,7 +1,6 @@
 import React from 'react';
 import './trail.css';
 import { Checkbox } from './Checkbox/checkbox';
-import { Stage } from './Stage/stage';
 import { useParams } from 'react-router-dom';
 import data from '../../../trails.json';
 

@@ -11,3 +11,9 @@
   height: 400px;
   margin: auto;
 }
+
+.all-trails-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
