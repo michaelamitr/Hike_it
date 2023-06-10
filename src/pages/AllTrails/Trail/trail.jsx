@@ -1,15 +1,15 @@
 import React from 'react';
 import './trail.css';
-import { Checkbox } from './Checkbox/checkbox';
 import { useParams } from 'react-router-dom';
 import data from '../../../trails.json';
 import { Heading } from '../Heading/heading';
 import { Packing } from './Packing/packing';
+import { TrailMap } from '../TrailMap/trailmap';
 
 export const Trail = () => {
   const { trailId } = useParams();
   const trailData = data.find((trail) => trail.id === trailId);
-  console.log(trailData.bannerImage);
+  console.log(trailData);
   return (
     <section id="trail">
       <div
@@ -48,6 +48,15 @@ export const Trail = () => {
         </section>
         <section className="stages">
           <Heading title="Etapy" url={trailData.sectionImages.stages} />
+          <TrailMap
+            key={trailData.mapData.id}
+            zoom={trailData.mapData.mapComponentData.zoom}
+            height={trailData.mapData.mapComponentData.height}
+            centerlat={trailData.mapData.mapComponentData.center.lat}
+            centerlng={trailData.mapData.mapComponentData.center.lng}
+            coords={trailData.mapData.pathComponentCords}
+            points={trailData.mapData.markerlayerComponentPoints}
+          />
         </section>
 
         <section className="packing">
