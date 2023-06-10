@@ -14,7 +14,7 @@ export const HumansAndNature = () => {
     '3. Nepoškozujme živou přírodu a neberme si s sebou domů rostliny ani zvířata.',
     '4. Znečišťujme přírodu co nejméně. Nesmíme po sobě zanechávat odpadky, použitý toaletní papír ani jiný odpad.',
     '5. Udržujme ticho. Nepořádáme hlučné večírky a nerušíme noční klid. Buďme ohleduplní ke všem zvířecím i lidským obyvatelům daného prostředí. ',
-  ]; //to pak přesuneme
+  ];
   return (
     <section id="humans-and-nature">
       <div className="nature__page">
