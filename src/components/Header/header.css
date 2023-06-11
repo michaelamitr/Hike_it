@@ -45,7 +45,7 @@ header {
   height: calc(100vh - 4rem);
   background: rgb(111, 61, 4);
   background-image: url('./wood.png');
-  background-size: 7rem;
+  background-size: 112px;
   background-position: center;
   background-repeat: repeat;
 }

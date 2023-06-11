@@ -1,10 +1,8 @@
 import React from 'react';
 import {
   Map,
-  ZoomControl,
   MouseControl,
   KeyboardControl,
-  CompassControl,
   SyncControl,
   MarkerLayer,
   Marker,
@@ -13,6 +11,11 @@ import {
 } from 'react-mapycz';
 import './trailmap.css';
 import { Stage } from './Stage/stage';
+import icon from './icons/map-point-blue.png';
+
+const MarkerView = ({ title }) => {
+  return <img src={icon} alt={title} title={title} className="marker" />;
+};
 
 export const TrailMap = ({
   zoom,

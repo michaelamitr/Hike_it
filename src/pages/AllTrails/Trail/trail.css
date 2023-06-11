@@ -39,7 +39,11 @@
   bottom: 0px;
   width: 10px;
   height: 255px;
-  background: rgb(92, 51, 5);
+  background: rgb(111, 61, 4);
+  background-image: url('../../../components/Header/wood.png');
+  background-size: 112px;
+  background-position: center;
+  background-repeat: repeat;
 }
 
 .navigation>a {
