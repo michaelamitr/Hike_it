@@ -19,18 +19,13 @@ export const Trail = () => {
   const handleActive = (image) => {
     setDialogImage(image);
   };
-  console.log(dialogImage);
+
   const handleClose = (e) => {
-    findInd();
     if (e.target === e.currentTarget) {
       dialogRef.current.close();
     }
   };
-  const findInd = () => {
-    const index = trailData.gallery.indexOf(dialogImage);
-    console.log(index);
-    setDialogImage(index);
-  };
+
   return (
     <section id="trail">
       <div
@@ -113,7 +108,17 @@ export const Trail = () => {
             onClick={handleClose}
           >
             <div className="dialog__content">
-              <img className="arrow arrow--left" src={arrowLeft} alt="" />
+              <img
+                className="arrow arrow--left"
+                src={arrowLeft}
+                onClick={() =>
+                  setDialogImage(
+                    trailData.gallery[
+                      trailData.gallery.indexOf(dialogImage) - 1
+                    ],
+                  )
+                }
+              />
               <img
                 className="dialog__img"
                 src={dialogImage}
@@ -123,7 +128,13 @@ export const Trail = () => {
               <img
                 className="arrow arrow--right"
                 src={arrowRight}
-                onClick={() => setDialogImage(dialogImage + 1)}
+                onClick={() =>
+                  setDialogImage(
+                    trailData.gallery[
+                      trailData.gallery.indexOf(dialogImage) + 1
+                    ],
+                  )
+                }
               />
             </div>
           </dialog>
