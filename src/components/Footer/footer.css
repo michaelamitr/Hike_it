@@ -1,7 +1,7 @@
 footer {
   width: 100%;
   background-color: var(--backgroung-light-blue);
-  background-image: url('../Header/wood.png');
+  background-image: url('../Header/img/wood.png');
   background-repeat: repeat;
   background-size: 16rem;
   height: 4rem;

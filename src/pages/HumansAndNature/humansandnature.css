@@ -43,6 +43,21 @@
   padding: 0 2rem;
 }
 
+.wildcamping__img {
+  width: 350px;
+}
+
+.did-you-know__container {
+  background-color: var(--backgroung-light-blue);
+  color: var(--text-light);
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.did-you-know__hide {
+  display: none;
+}
+
 .did-you-know {
   background-color: var(--backgroung-light-blue);
   color: var(--text-light);
@@ -77,21 +92,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.did-you-know__container {
-  background-color: var(--backgroung-light-blue);
-  color: var(--text-light);
-  padding: 2rem;
-  margin: 1rem;
-}
-
-.did-you-know__hide {
-  display: none;
-}
-
-.wildcamping__img {
-  width: 350px;
 }
 
 @media (min-width: 850px) {

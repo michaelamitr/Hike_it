@@ -6,12 +6,6 @@
   background-color: var(--text-light);
 }
 
-.trail__map {
-  width: 50%;
-  height: 400px;
-  margin: auto;
-}
-
 .all-trails-container {
   display: flex;
   flex-direction: column;
@@ -24,3 +18,9 @@
 .all-trails-container a {
   width: 100%;
 }
+
+/* .trail__map {
+  width: 50%;
+  height: 400px;
+  margin: auto;
+} */

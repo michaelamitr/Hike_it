@@ -142,15 +142,12 @@ div.instagram a {
 }
 
 @media (min-width: 609px) {
-
   #contacts {
     min-height: 1500px;
   }
-
 }
 
 @media (min-width: 676px) {
-
   #contacts {
     min-height: 1100px;
   }
@@ -170,5 +167,4 @@ div.instagram a {
   #contacts {
     min-height: 1100px;
   }
-
 }
