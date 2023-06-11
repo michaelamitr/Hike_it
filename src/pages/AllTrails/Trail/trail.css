@@ -221,6 +221,11 @@
   outline: none;
 }
 
+.gallery__dialog::backdrop {
+  background-color: black;
+  opacity: 0.7;
+}
+
 .dialog__content {
   position: relative;
 }
