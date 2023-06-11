@@ -97,6 +97,7 @@ header {
   width: 2.55rem;
   padding: 4px;
   margin-left: 1rem;
+  cursor: pointer;
 }
 
 .burgermenu {
