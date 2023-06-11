@@ -1,62 +1,15 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
 import './trail.css';
 import { useParams } from 'react-router-dom';
 import data from '../../../trails.json';
 import { Heading } from '../Heading/heading';
 import { Packing } from './Packing/packing';
 import { TrailMap } from '../TrailMap/trailmap';
-import { Image } from './Image/image';
-import arrowLeft from './img/arrow-left.png';
-import arrowRight from './img/arrow-right.png';
+import { Gallery } from './Gallery/gallery';
 
 export const Trail = () => {
-  const dialogRef = useRef();
-  const [dialogImage, setDialogImage] = useState('');
   const { trailId } = useParams();
   const trailData = data.find((trail) => trail.id === trailId);
-
-  const setDialogImageIndex = (index) => {
-    console.log('index ' + index);
-    console.log('trailData.gallery.length ' + trailData.gallery.length);
-    let newIndex;
-    if (index >= trailData.gallery.length) {
-      newIndex = 0;
-    } else if (index < 0) {
-      newIndex = trailData.gallery.length - 1;
-    } else {
-      newIndex = index;
-    }
-    console.log('newIndex ' + newIndex);
-    setDialogImage(trailData.gallery[newIndex]);
-  };
-
-  useEffect(() => {
-    const handleKeyDown = (event) => {
-      if (event.keyCode === 37) {
-        // Left arrow key
-        setDialogImageIndex(trailData.gallery.indexOf(dialogImage) - 1);
-      } else if (event.keyCode === 39) {
-        // Right arrow key
-        setDialogImageIndex(trailData.gallery.indexOf(dialogImage) + 1);
-      }
-    };
-
-    window.addEventListener('keydown', handleKeyDown);
-
-    return () => {
-      window.removeEventListener('keydown', handleKeyDown);
-    };
-  }, [dialogImage]);
-
-  const handleActive = (image) => {
-    setDialogImage(image);
-  };
-
-  const handleClose = (e) => {
-    if (e.target === e.currentTarget) {
-      dialogRef.current.close();
-    }
-  };
 
   return (
     <section id="trail">
@@ -121,55 +74,7 @@ export const Trail = () => {
           <Heading title="Co s sebou" url={trailData.sectionImages.packing} />
           <Packing packing={trailData.whatToPack} />
         </section>
-
-        <section className="gallery" id="gallery">
-          <Heading title="Galerie" url={trailData.sectionImages.gallery} />
-          <div className="gallery-container">
-            {trailData.gallery.map((img) => {
-              return (
-                <Image
-                  active={handleActive}
-                  imageArray={trailData.gallery}
-                  key={img}
-                  image={img}
-                  dialogRef={dialogRef}
-                />
-              );
-            })}
-          </div>
-          <dialog
-            className="gallery__dialog"
-            ref={dialogRef}
-            onClick={handleClose}
-          >
-            <div className="dialog__content">
-              <img
-                className="arrow arrow--left"
-                src={arrowLeft}
-                onClick={() =>
-                  setDialogImageIndex(
-                    trailData.gallery.indexOf(dialogImage) - 1,
-                  )
-                }
-              />
-              <img
-                className="dialog__img"
-                src={dialogImage}
-                alt=""
-                onClick={handleClose}
-              />
-              <img
-                className="arrow arrow--right"
-                src={arrowRight}
-                onClick={() =>
-                  setDialogImageIndex(
-                    trailData.gallery.indexOf(dialogImage) + 1,
-                  )
-                }
-              />
-            </div>
-          </dialog>
-        </section>
+        <Gallery trailData={trailData} />
       </div>
     </section>
   );
