@@ -1,0 +1,11 @@
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--text-light);
+  height: 100vh;
+}
+
+.error__page {
+  text-align: center;
+}
