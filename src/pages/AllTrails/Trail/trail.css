@@ -7,6 +7,10 @@
   font-family: var(--font-text);
 }
 
+#nav {
+  scroll-margin-top: 90px;
+}
+
 .trail__banner {
   background-size: cover;
   height: 300px;
@@ -142,6 +146,22 @@
   scroll-margin-top: 4rem;
 }
 
+.scroll-pic {
+  width: 60px;
+  height: 60px;
+  background-image: url('./scroll-up.svg');
+  background-position: center;
+  position: fixed;
+  right: 5px;
+  bottom: 4.5rem;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.scroll-pic:hover {
+  scale: 1.07;
+}
+
 @media (min-width: 580px) {
   .trail__page {
     width: 70vw;
@@ -163,9 +183,10 @@
   }
 
   .general__info--desktop {
-    display: block;
+    display: flex;
     margin-right: 0;
     height: 205px;
+    justify-content: center;
   }
 
   .trail__flex {
