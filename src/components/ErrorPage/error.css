@@ -1,9 +1,12 @@
 .error {
+  position: relative;
+  top: 4rem;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--text-light);
-  height: 100vh;
+  height: calc(100vh - 4rem);
 }
 
 .error__page {
