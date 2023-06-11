@@ -15,6 +15,10 @@
   }
 }
 
+.marker:hover {
+  scale: 1.2;
+}
+
 .card {
   position: absolute !important;
   z-index: 999;

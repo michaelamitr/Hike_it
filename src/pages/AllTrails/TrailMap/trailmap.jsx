@@ -11,10 +11,10 @@ import {
 } from 'react-mapycz';
 import './trailmap.css';
 import { Stage } from './Stage/stage';
-import icon from './icons/map-point-blue.png';
+import icon from './icons/map-point-blue.svg';
 
-const MarkerView = ({ title }) => {
-  return <img src={icon} alt={title} title={title} className="marker" />;
+const MarkerView = () => {
+  return <img src={icon} className="marker" />;
 };
 
 export const TrailMap = ({
@@ -39,7 +39,10 @@ export const TrailMap = ({
           {points.map((point) => (
             <Marker
               coords={{ lng: point.lng, lat: point.lat }}
-              options={{ title: point.title }}
+              options={{
+                title: point.title,
+                url: (marker) => <MarkerView />,
+              }}
               card={{
                 body: () => (
                   <Stage
