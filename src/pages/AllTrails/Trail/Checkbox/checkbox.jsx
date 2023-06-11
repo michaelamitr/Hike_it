@@ -3,10 +3,10 @@ import './checkbox.css';
 
 export const Checkbox = ({ item }) => {
   return (
-    <>
+    <label className="container">
+      {item}
       <input type="checkbox" />
-      <label htmlFor="">{item}</label>
-      <br />
-    </>
+      <span className="checkmark"></span>
+    </label>
   );
 };
