@@ -9,8 +9,6 @@ export const Image = ({ image, active, dialogRef }) => {
   };
 
   return (
-    <>
-      <img onClick={handleOpen} className="gallery__img" src={image} alt="" />
-    </>
+    <img onClick={handleOpen} className="gallery__img" src={image} alt="" />
   );
 };
