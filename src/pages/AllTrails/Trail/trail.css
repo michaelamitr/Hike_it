@@ -162,11 +162,22 @@
   scale: 1.07;
 }
 
+.gallery-container {
+  padding-top: 30px;
+}
+
 .gallery {
   margin-bottom: 1rem;
 }
 
 @media (min-width: 580px) {
+
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+
   .trail__page {
     width: 70vw;
     margin: 0 auto;

@@ -1,9 +1,4 @@
 .gallery__img {
-  width: 100%;
-}
-
-@media (min-width: 580px) {
-  .gallery__img {
-    width: 20%;
-  }
+  max-width: 100%;
+  height: auto;
 }
