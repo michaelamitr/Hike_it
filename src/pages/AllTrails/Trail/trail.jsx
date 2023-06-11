@@ -5,10 +5,12 @@ import data from '../../../trails.json';
 import { Heading } from '../Heading/heading';
 import { Packing } from './Packing/packing';
 import { TrailMap } from '../TrailMap/trailmap';
+import { Image } from './Image/image';
 
 export const Trail = () => {
   const { trailId } = useParams();
   const trailData = data.find((trail) => trail.id === trailId);
+  console.log(trailData);
   return (
     <section id="trail">
       <div
@@ -74,6 +76,9 @@ export const Trail = () => {
 
         <section className="gallery" id="gallery">
           <Heading title="Galerie" url={trailData.sectionImages.gallery} />
+          {trailData.gallery.map((img) => {
+            return <Image key={img} image={img} />;
+          })}
         </section>
       </div>
     </section>
