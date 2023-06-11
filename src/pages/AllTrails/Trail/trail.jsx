@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './trail.css';
 import { useParams } from 'react-router-dom';
 import data from '../../../trails.json';
@@ -6,8 +6,6 @@ import { Heading } from '../Heading/heading';
 import { Packing } from './Packing/packing';
 import { TrailMap } from '../TrailMap/trailmap';
 import { Image } from './Image/image';
-import { useState } from 'react';
-import { useRef } from 'react';
 import arrowLeft from './img/arrow-left.png';
 import arrowRight from './img/arrow-right.png';
 
@@ -16,6 +14,40 @@ export const Trail = () => {
   const [dialogImage, setDialogImage] = useState('');
   const { trailId } = useParams();
   const trailData = data.find((trail) => trail.id === trailId);
+
+  const setDialogImageIndex = (index) => {
+    console.log('index ' + index);
+    console.log('trailData.gallery.length ' + trailData.gallery.length);
+    let newIndex;
+    if (index >= trailData.gallery.length) {
+      newIndex = 0;
+    } else if (index < 0) {
+      newIndex = trailData.gallery.length - 1;
+    } else {
+      newIndex = index;
+    }
+    console.log('newIndex ' + newIndex);
+    setDialogImage(trailData.gallery[newIndex]);
+  };
+
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.keyCode === 37) {
+        // Left arrow key
+        setDialogImageIndex(trailData.gallery.indexOf(dialogImage) - 1);
+      } else if (event.keyCode === 39) {
+        // Right arrow key
+        setDialogImageIndex(trailData.gallery.indexOf(dialogImage) + 1);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [dialogImage]);
+
   const handleActive = (image) => {
     setDialogImage(image);
   };
@@ -115,10 +147,8 @@ export const Trail = () => {
                 className="arrow arrow--left"
                 src={arrowLeft}
                 onClick={() =>
-                  setDialogImage(
-                    trailData.gallery[
-                      trailData.gallery.indexOf(dialogImage) - 1
-                    ],
+                  setDialogImageIndex(
+                    trailData.gallery.indexOf(dialogImage) - 1,
                   )
                 }
               />
@@ -132,10 +162,8 @@ export const Trail = () => {
                 className="arrow arrow--right"
                 src={arrowRight}
                 onClick={() =>
-                  setDialogImage(
-                    trailData.gallery[
-                      trailData.gallery.indexOf(dialogImage) + 1
-                    ],
+                  setDialogImageIndex(
+                    trailData.gallery.indexOf(dialogImage) + 1,
                   )
                 }
               />
