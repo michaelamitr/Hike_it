@@ -92,17 +92,19 @@ export const Trail = () => {
 
         <section className="gallery" id="gallery">
           <Heading title="Galerie" url={trailData.sectionImages.gallery} />
-          {trailData.gallery.map((img) => {
-            return (
-              <Image
-                active={handleActive}
-                imageArray={trailData.gallery}
-                key={img}
-                image={img}
-                dialogRef={dialogRef}
-              />
-            );
-          })}
+          <div className="gallery-container">
+            {trailData.gallery.map((img) => {
+              return (
+                <Image
+                  active={handleActive}
+                  imageArray={trailData.gallery}
+                  key={img}
+                  image={img}
+                  dialogRef={dialogRef}
+                />
+              );
+            })}
+          </div>
           <dialog
             className="gallery__dialog"
             ref={dialogRef}
