@@ -7,6 +7,10 @@
   font-family: var(--font-text);
 }
 
+#nav {
+  scroll-margin-top: 90px;
+}
+
 .trail__banner {
   background-size: cover;
   height: 300px;
@@ -49,7 +53,7 @@
 .navigation>a {
   position: relative;
   font-family: var(--font-caveat);
-  color: white;
+  color: var(--text-light);
   font-size: 1.5rem;
   margin-bottom: 1rem;
   height: 2.5rem;
@@ -58,6 +62,10 @@
   justify-content: center;
   align-items: center;
   background-color: var(--backgroung-light-blue);
+}
+
+.navigation a:hover {
+  scale: 1.1;
 }
 
 .navigation>a::after {
@@ -131,6 +139,29 @@
   align-items: center;
 }
 
+#general,
+#stages,
+#packing,
+#gallery {
+  scroll-margin-top: 4rem;
+}
+
+.scroll-pic {
+  width: 60px;
+  height: 60px;
+  background-image: url('./scroll-up.svg');
+  background-position: center;
+  position: fixed;
+  right: 5px;
+  bottom: 4.5rem;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.scroll-pic:hover {
+  scale: 1.07;
+}
+
 .gallery {
   margin-bottom: 1rem;
 }
@@ -161,9 +192,10 @@
   }
 
   .general__info--desktop {
-    display: block;
+    display: flex;
     margin-right: 0;
     height: 205px;
+    justify-content: center;
   }
 
   .trail__flex {

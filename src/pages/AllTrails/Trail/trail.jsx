@@ -40,7 +40,7 @@ export const Trail = () => {
       </div>
       <div className="trail__page">
         <div className="trail__flex">
-          <nav className="navigation">
+          <nav className="navigation" id="nav">
             <a href="#general">Obecné info</a>
             <a href="#stages">Etapy</a>
             <a href="#packing">Co s sebou</a>
@@ -54,6 +54,7 @@ export const Trail = () => {
             <p>Obtížnost: {trailData.general.difficulty}</p>
             <p>Vhodné absolvovat: {trailData.general.monthsToGo}</p>
           </div>
+          <a href="#nav" className="scroll-pic"></a>
         </div>
         <section className="general" id="general">
           <Heading title="Obecné" url={trailData.sectionImages.general} />

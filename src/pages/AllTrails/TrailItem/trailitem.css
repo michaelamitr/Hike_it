@@ -1,1 +1,69 @@
+.general__info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.heading__container-all-trails {
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.heading__title-all-trails {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.2;
+  width: 50%;
+  height: 40px;
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  font-family: 'Caveat', sans-serif;
+}
+
+.more-info {
+  all: unset;
+  background-color: var(--backgroung-light-blue);
+  color: var(--text-light);
+  font-family: 'Caveat', sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  position: relative;
+  display: flex;
+  height: 2.55rem;
+  width: 10rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-info:hover {
+  scale: 1.1;
+}
+
+.more-info:after {
+  content: "";
+  position: absolute;
+  border-top: 1.3rem solid transparent;
+  border-bottom: 1.3rem solid transparent;
+  border-left: 1rem solid var(--backgroung-light-blue);
+  left: 10rem;
+}
+
+@media (max-width: 430px) {
+  .heading__title-all-trails {
+    font-size: 1.5rem;
+    line-height: 1.9;
+  }
+}
+
+.heading__title-all-trails {
+  width: 50%;
+}
