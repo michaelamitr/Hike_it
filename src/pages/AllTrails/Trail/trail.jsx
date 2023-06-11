@@ -6,11 +6,31 @@ import { Heading } from '../Heading/heading';
 import { Packing } from './Packing/packing';
 import { TrailMap } from '../TrailMap/trailmap';
 import { Image } from './Image/image';
+import { useState } from 'react';
+import { useRef } from 'react';
+import arrowLeft from './img/arrow-left.png';
+import arrowRight from './img/arrow-right.png';
 
 export const Trail = () => {
+  const dialogRef = useRef();
+  const [dialogImage, setDialogImage] = useState('');
   const { trailId } = useParams();
   const trailData = data.find((trail) => trail.id === trailId);
-  console.log(trailData);
+  const handleActive = (image) => {
+    setDialogImage(image);
+  };
+  console.log(dialogImage);
+  const handleClose = (e) => {
+    findInd();
+    if (e.target === e.currentTarget) {
+      dialogRef.current.close();
+    }
+  };
+  const findInd = () => {
+    const index = trailData.gallery.indexOf(dialogImage);
+    console.log(index);
+    setDialogImage(index);
+  };
   return (
     <section id="trail">
       <div
@@ -77,8 +97,36 @@ export const Trail = () => {
         <section className="gallery" id="gallery">
           <Heading title="Galerie" url={trailData.sectionImages.gallery} />
           {trailData.gallery.map((img) => {
-            return <Image key={img} image={img} />;
+            return (
+              <Image
+                active={handleActive}
+                imageArray={trailData.gallery}
+                key={img}
+                image={img}
+                dialogRef={dialogRef}
+              />
+            );
           })}
+          <dialog
+            className="gallery__dialog"
+            ref={dialogRef}
+            onClick={handleClose}
+          >
+            <div className="dialog__content">
+              <img className="arrow arrow--left" src={arrowLeft} alt="" />
+              <img
+                className="dialog__img"
+                src={dialogImage}
+                alt=""
+                onClick={handleClose}
+              />
+              <img
+                className="arrow arrow--right"
+                src={arrowRight}
+                onClick={() => setDialogImage(dialogImage + 1)}
+              />
+            </div>
+          </dialog>
         </section>
       </div>
     </section>
