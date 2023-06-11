@@ -8,6 +8,7 @@ import {
   Marker,
   PathLayer,
   Path,
+  ZoomControl,
 } from 'react-mapycz';
 import './trailmap.css';
 import { Stage } from './Stage/stage';
@@ -33,7 +34,8 @@ export const TrailMap = ({
         center={{ lat: centerlat, lng: centerlng }}
       >
         <KeyboardControl />
-        <MouseControl pan={true} wheel={true} zoom={true} />
+        <ZoomControl left={380} top={10} />
+        <MouseControl pan={true} wheel={false} zoom={true} />
         <SyncControl />
         <MarkerLayer>
           {points.map((point) => (
