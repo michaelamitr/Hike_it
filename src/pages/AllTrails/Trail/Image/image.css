@@ -1,3 +1,15 @@
 .gallery__img {
   width: 100%;
 }
+
+.dialog__img {
+  width: 100%;
+  max-height: 80vh;
+}
+
+.gallery__dialog {
+  margin: auto;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+}
