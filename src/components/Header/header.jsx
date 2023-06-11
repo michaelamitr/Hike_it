@@ -1,20 +1,35 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import { useState } from 'react';
 import './header.css';
 import burgerIcon from './icons/burgermenu-blue.svg';
 import closeIcon from './icons/menu-close-blue.svg';
 import darkModeIcon from './icons/moon-icon-blue.svg';
+import lightModeIcon from './icons/sun-beige.svg';
 
 export const Header = () => {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [imageSrc, setImageSrc] = useState(darkModeIcon);
   const [open, setOpen] = useState(false);
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+  };
+  useEffect(() => {
+    const root = document.documentElement;
+    if (isDarkMode) {
+      root.classList.add('dark');
+      setImageSrc(lightModeIcon);
+    } else {
+      root.classList.remove('dark');
+      setImageSrc(darkModeIcon);
+    }
+  }, [isDarkMode]);
   const toggleMenu = () => {
     setOpen(!open);
   };
 
   return (
     <header>
-      <img src={darkModeIcon} className="darkmode"></img>
+      <img src={imageSrc} className="darkmode" onClick={toggleDarkMode}></img>
       <img
         className="burgermenu"
         src={open ? closeIcon : burgerIcon}

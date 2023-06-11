@@ -9,6 +9,13 @@
   --link-text: rgb(35, 160, 0);
 }
 
+:root.dark {
+  --backgroung-light-blue: #ffedc7;
+  --text-light: #002932;
+  --text: white;
+  --link-text: rgb(35, 160, 0);
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
