@@ -32,7 +32,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2rem;
+  margin: 2rem 0 1rem 0;
   position: relative;
 }
 
@@ -40,9 +40,9 @@
   content: "";
   position: absolute;
   left: 50%;
-  bottom: 0px;
+  bottom: -16px;
   width: 10px;
-  height: 255px;
+  height: 272px;
   background: rgb(111, 61, 4);
   background-image: url('../../../components/Header/wood.png');
   background-size: 112px;
@@ -212,11 +212,6 @@
   .trail__flex {
     display: flex;
     justify-content: space-between;
-  }
-
-  .navigation::before {
-    bottom: 0px;
-    height: 270px;
   }
 }
 
