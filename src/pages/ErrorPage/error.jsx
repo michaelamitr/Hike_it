@@ -1,7 +1,7 @@
 import React from 'react';
 import './error.css';
-import { Header } from '../Header/header';
-import { Footer } from '../Footer/footer';
+import { Header } from '../../components/Header/header';
+import { Footer } from '../../components/Footer/footer';
 
 export const ErrorPage = () => {
   return (

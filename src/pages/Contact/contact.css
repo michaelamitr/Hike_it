@@ -40,6 +40,8 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  background-color: #ffedc7;
+  padding-left: 10px;
 }
 
 .email,
@@ -66,7 +68,7 @@ div.instagram a {
 
 .email-icon {
   background-image: url('./img/email-closed.png');
-  background-color: var(--text-light);
+  background-color: #ffedc7;
   background-position: center;
   background-size: cover;
   display: block;
@@ -77,7 +79,7 @@ div.instagram a {
 
 .github-icon {
   background-image: url('./img/github-light.png');
-  background-color: var(--text-light);
+  background-color: #ffedc7;
   background-position: center;
   background-size: cover;
   display: block;
@@ -92,7 +94,7 @@ div.instagram a {
 
 .linkedin-icon {
   background-image: url('./img/linkedin-light.svg');
-  background-color: var(--text-light);
+  background-color: #ffedc7;
   background-position: center;
   background-size: cover;
   display: block;
@@ -107,7 +109,7 @@ div.instagram a {
 
 .instagram-icon {
   background-image: url('./img/instagram-light.svg');
-  background-color: var(--text-light);
+  background-color: #ffedc7;
   background-position: center;
   background-size: cover;
   display: block;
@@ -124,7 +126,7 @@ div.instagram a {
 .github-link,
 .linkedin-link,
 .instagram-link {
-  color: var(--backgroung-light-blue);
+  color: #002932;
 }
 
 .email-link:hover,

@@ -14,7 +14,7 @@ import { AllTrails } from './pages/AllTrails/alltrails';
 import { HumansAndNature } from './pages/HumansAndNature/humansandnature';
 import { Contacts } from './pages/Contact/contact';
 import { Trail } from './pages/AllTrails/Trail/trail';
-import { ErrorPage } from './components/ErrorPage/error';
+import { ErrorPage } from './pages/ErrorPage/error';
 
 const App = () => {
   const location = useLocation();

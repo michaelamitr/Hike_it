@@ -1,9 +1,9 @@
 .general__info_in-alltrails {
   padding: 20px;
   min-width: 200px;
-  background-color: var(--backgroung-light-blue);
+  background-color: #002932;
   opacity: 0.8;
-  color: var(--text-light);
+  color: #ffedc7;
   line-height: 25px;
   font-family: 'Istok Web', sans-serif;
   max-width: 275.24px;

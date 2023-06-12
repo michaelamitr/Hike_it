@@ -5,7 +5,7 @@ header {
   display: flex;
   height: 4rem;
   align-items: center;
-  background-color: var(--backgroung-light-blue);
+  background-color: #002932;
   font-family: 'Caveat', sans-serif;
   font-weight: 500;
   justify-content: space-between;
@@ -51,8 +51,8 @@ header {
 }
 
 .navmob a {
-  color: var(--backgroung-light-blue);
-  background-color: var(--text-light);
+  color: #002932;
+  background-color: #ffedc7;
   position: relative;
   z-index: 1;
   display: flex;
@@ -73,7 +73,7 @@ header {
   position: absolute;
   border-top: 1.3rem solid transparent;
   border-bottom: 1.3rem solid transparent;
-  border-left: 1rem solid var(--text-light);
+  border-left: 1rem solid #ffedc7;
   left: 10rem;
 }
 
@@ -102,7 +102,7 @@ header {
 
 .burgermenu {
   display: block;
-  background-color: var(--text-light);
+  background-color: #ffedc7;
   height: 2.55rem;
   width: 2.55rem;
   margin-right: 1rem;
@@ -127,8 +127,8 @@ header {
   }
 
   .nav a {
-    color: var(--backgroung-light-blue);
-    background-color: var(--text-light);
+    color: #002932;
+    background-color: #ffedc7;
     position: relative;
     z-index: 1;
     display: flex;
@@ -149,7 +149,7 @@ header {
     position: absolute;
     border-top: 1.3rem solid transparent;
     border-bottom: 1.3rem solid transparent;
-    border-left: 1rem solid var(--text-light);
+    border-left: 1rem solid #ffedc7;
     left: 10rem;
   }
 

@@ -30,8 +30,8 @@
 
 .more-info {
   all: unset;
-  background-color: var(--backgroung-light-blue);
-  color: var(--text-light);
+  background-color: #002932;
+  color: #ffedc7;
   font-family: 'Caveat', sans-serif;
   font-weight: 500;
   font-size: 1.6rem;
@@ -53,7 +53,7 @@
   position: absolute;
   border-top: 1.3rem solid transparent;
   border-bottom: 1.3rem solid transparent;
-  border-left: 1rem solid var(--backgroung-light-blue);
+  border-left: 1rem solid #002932;
   left: 10rem;
 }
 
