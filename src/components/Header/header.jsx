@@ -23,6 +23,7 @@ export const Header = () => {
       setImageSrc(darkModeIcon);
     }
   }, [isDarkMode]);
+
   const toggleMenu = () => {
     setOpen(!open);
   };

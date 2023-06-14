@@ -5,10 +5,141 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--text-light);
   height: calc(100vh - 4rem);
+  padding-bottom: 4rem;
+  background-image: url('./IMG_9993.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .error__page {
   text-align: center;
+}
+
+
+.error__page {
+  position: absolute;
+  top: 4rem;
+  width: 100%;
+  height: calc(100vh - 8rem);
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.error__page ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  margin: 3rem;
+}
+
+.error__page ul::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: calc(100vh - 11rem);
+  background: rgb(111, 61, 4);
+  background-image: url('./wood.png');
+  background-size: 112px;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.error__page li {
+  color: #ffedc7;
+  background-color: #002932;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  height: 2.55rem;
+  width: 10rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Caveat", sans-serif;
+  font-size: 1.5rem;
+  cursor: default;
+}
+
+.error__page li:after {
+  content: "";
+  position: absolute;
+  border-top: 1.3rem solid transparent;
+  border-bottom: 1.3rem solid transparent;
+  border-left: 1rem solid #002932;
+  left: 10rem;
+}
+
+.mom-i-want-home {
+  width: 200px !important;
+  cursor: pointer !important;
+}
+
+.mom-i-want-home a {
+  color: #ffedc7;
+}
+
+.mom-i-want-home:hover {
+  scale: 1.1;
+}
+
+.mom-i-want-home::after {
+  left: 200px !important;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(2deg);
+  }
+
+  10% {
+    transform: rotate(-5deg);
+  }
+
+  20% {
+    transform: rotate(10deg);
+  }
+
+  30% {
+    transform: rotate(-10deg);
+  }
+
+  40% {
+    transform: rotate(20deg);
+  }
+
+  50% {
+    transform: rotate(-30deg);
+  }
+
+  60% {
+    transform: rotate(40deg);
+  }
+
+  70% {
+    transform: rotate(-30deg);
+  }
+
+  80% {
+    transform: rotate(20deg);
+  }
+
+  90% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(2deg);
+  }
+}
+
+.break {
+  animation-name: swing;
+  animation-duration: 20s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  transform-origin: top center;
 }
