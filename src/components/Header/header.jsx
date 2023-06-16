@@ -7,12 +7,22 @@ import darkModeIcon from './icons/moon-icon-blue.svg';
 import lightModeIcon from './icons/sun-beige.svg';
 
 export const Header = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-  const [imageSrc, setImageSrc] = useState(darkModeIcon);
   const [open, setOpen] = useState(false);
+
+  const [isDarkMode, setIsDarkMode] = useState(
+    localStorage.getItem('darkMode') === 'true',
+  );
+
+  const [imageSrc, setImageSrc] = useState(
+    localStorage.getItem('darkMode') === 'true' ? lightModeIcon : darkModeIcon,
+  );
+
   const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
+    const updatedMode = !isDarkMode;
+    setIsDarkMode(updatedMode);
+    localStorage.setItem('darkMode', String(updatedMode));
   };
+
   useEffect(() => {
     const root = document.documentElement;
     if (isDarkMode) {
@@ -23,7 +33,6 @@ export const Header = () => {
       setImageSrc(darkModeIcon);
     }
   }, [isDarkMode]);
-
   const toggleMenu = () => {
     setOpen(!open);
   };
