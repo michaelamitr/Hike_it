@@ -22,7 +22,7 @@ export const MainPage = () => {
         </p>
         <p className="main__text">
           Na naší stránce se zaměřujeme na představení dálkových tras, které nás
-          zaujaly, nebo které jsme sami absolvovali. Naším cílem je poskytnout
+          zaujaly, nebo které jsme sami absolvovaly. Naším cílem je poskytnout
           vám inspiraci pro vaše pěší výlety a pomoci vám naplánovat vaši
           vlastní dálkovou túru.
         </p>
