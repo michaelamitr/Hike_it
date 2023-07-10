@@ -28,8 +28,6 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* .container {
-  max-width: 26rem;
-  margin-right: auto;
-  margin-left: auto;
-} */
+body {
+  background-color: var(--text-light);
+}
